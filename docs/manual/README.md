@@ -1,7 +1,7 @@
-# Manual do CSOnline
+# Manual do CaraCore CSO
 
-Bem-vindo ao manual da aplicação CSOnline RC-1. Aqui você encontrará informações sobre como usar a aplicação e entender seus conceitos fundamentais.
+Bem-vindo ao manual da aplicação CaraCore CSO. Aqui você encontrará informações completas sobre como usar o sistema de gestão para transportadoras e entender suas funcionalidades.
 
-## O que é Resiliência Offline?
+## O que é o CaraCore CSO?
 
-A resiliência offline refere-se à capacidade da aplicação de funcionar sem conexão com a internet, garantindo que os dados do usuário sejam protegidos e acessíveis localmente.
+O CaraCore CSO é um sistema desktop profissional para gestão completa de transportadoras, oferecendo controle total sobre entregas, couriers, clientes e preços. Desenvolvido em Java 21 + JavaFX, com dados armazenados localmente em SQLite para máxima segurança e performance.

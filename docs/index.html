@@ -3,54 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSOnline RC-1: Soberania Localhost</title>
+    <base href="https://chmulato.github.io/caracore-cso-releases/">
+    <title>CaraCore CSO — Sistema de Gestão para Transportadoras | Cara Core Informática</title>
+    <meta name="description" content="CaraCore CSO: sistema profissional para gestão completa de transportadoras. Controle de entregas, couriers, clientes e preços. Windows Desktop Java 21. Baixar e documentação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body class="page-index">
     <div class="wrapper">
-        <header>
-            <div style="border: 3px solid #00BFFF; padding: 10px; border-radius: 5px; display: inline-block;">
-                <h1>CSOnline RC-1: Soberania Localhost para o Futuro do Transporte</h1>
-                <p style="margin: 0; font-weight: bold; color: #00BFFF;">Startup SEED</p>
+        <nav class="breadcrumb" aria-label="Navegação">
+            <a href="index.html">CaraCore CSO — Loja</a>
+            <span> · </span>
+            <span>Cara Core Informática (caracore.com.br)</span>
+        </nav>
+
+        <!-- Aviso: pré-lançamento — versão oficial 08/11/2026, Java 21 -->
+        <section class="cso-prelaunch-banner" aria-label="Status de lançamento">
+            <p class="cso-prelaunch-label">Lançamento 08/11/2026 — Java 21</p>
+            <p class="cso-prelaunch-title">Versão oficial <strong>v1.0.0</strong> do CaraCore CSO em <strong>08 de novembro de 2026</strong>: aplicação desktop profissional para gestão de transportadoras. Você já pode conhecer a vitrine e agendar demonstração na matriz.</p>
+        </section>
+
+        <section class="hero-cta" aria-label="O que é o CaraCore CSO?">
+            <p class="hero-label"><span aria-hidden="true">🚛</span> Gestão profissional para transportadoras</p>
+            <h2 class="hero-title">Sistema completo para controle de entregas e operações logísticas.</h2>
+            <figure class="hero-contexto-cliente" aria-label="Transportadora — cliente do CaraCore CSO">
+                <img src="assets/img/caracore-cso-to-customers.png" alt="Transportadora no dia a dia: gestão de entregas e controle operacional. Cliente do CaraCore CSO." width="640" height="auto" />
+                <figcaption class="hero-contexto-caption">A imagem representa uma <strong>transportadora</strong> no contexto operacional: gestão de entregas, controle de couriers e eficiência logística — o público do CaraCore CSO.</figcaption>
+            </figure>
+            <p class="hero-desc">O <strong>CaraCore CSO</strong> é uma aplicação desktop Windows que oferece controle completo das operações de transporte: gestão de entregas, acompanhamento de couriers, base de clientes e controle de preços. Desenvolvido em <strong>Java 21</strong> e <strong>JavaFX</strong> — dados seguros no seu computador.</p>
+            <p class="hero-tagline" style="margin-top:1rem; font-size:1.05rem; font-weight:600; color:var(--accent-blue, #007bff);">Sua operação logística merece controle total e eficiência máxima.</p>
+            <div class="cta-buttons">
+                <a href="download.html" class="cta-btn cta-btn-primary">Baixar (Releases)</a>
+                <span class="cta-btn cta-btn-secondary" style="cursor:default;">Apresentação e consultoria: matriz caracore.com.br</span>
             </div>
-            <p class="subtitle">Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa.</p>
-            <p class="tagline">Descubra a resiliência offline e a diversão criativa da Cara Core Informática!</p>
+            <div class="hero-pillars">
+                <div class="hero-pillar-item"><strong>Controle de entregas</strong><br><span>Acompanhamento completo do ciclo logístico.</span></div>
+                <div class="hero-pillar-item"><strong>Gestão de couriers</strong><br><span>Cadastro e controle de entregadores.</span></div>
+                <div class="hero-pillar-item"><strong>Base de clientes</strong><br><span>Controle de destinatários e remetentes.</span></div>
+            </div>
+        </section>
+
+        <header>
+            <h1>CaraCore CSO — Loja e Releases</h1>
+            <p class="subtitle">Sistema profissional para gestão completa de transportadoras. Controle de entregas, couriers, clientes e preços. Vitrine de releases; apresentação completa e consultoria na matriz.</p>
         </header>
 
         <section class="methodology">
             <div class="card">
-                <h2>Sobre o CSOnline</h2>
-                <p>Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa. Mantém controle total dos dados, mesmo offline.</p>
+                <h2>O que é o CaraCore CSO?</h2>
+                <p>O <strong>CaraCore CSO</strong> é um sistema desktop profissional para gestão completa de transportadoras: controle de entregas, acompanhamento de couriers, base de clientes e gestão de preços. <strong>Windows Desktop</strong> — aplicativo nativo em Java 21 e JavaFX. Dados armazenados localmente no seu computador.</p>
             </div>
             <div class="card card-differential">
-                <h2>Identificação com o Cliente</h2>
-                <img src="assets/img/caracore-cso-to-customers.png" alt="Identificação do Cliente com Cara Core CSO" style="max-width: 100%; height: auto; margin: 1rem 0;">
-                <p>Entendemos os desafios das transportadoras médias brasileiras. Com CSOnline, você mantém controle total dos dados, mesmo offline.</p>
+                <h2>Para quem é</h2>
+                <p>Transportadoras que precisam controlar suas operações logísticas; empresas de courier que gerenciam entregas; profissionais que querem eficiência e controle total sobre seus dados. Ideal para quem prefere um aplicativo desktop confiável.</p>
+            </div>
+            <div class="card card-differential card-seguranca" style="border-left: 4px solid var(--accent-blue, #007bff);">
+                <h2>Dados 100% locais e seguros</h2>
+                <p>A arquitetura em Java 21 com banco de dados <strong>local (SQLite)</strong> foi escolhida para que o sistema <strong>nunca fique fora do ar por falta de internet</strong>. <strong>Blindagem de Dados:</strong> backups automáticos e locais, controle total sobre suas informações. Se o computador quebrar, suas operações continuam — você restaura a partir dos backups.</p>
+            </div>
+            <div class="card card-differential">
+                <h2>Matriz: apresentação completa e consultoria</h2>
+                <p>A <strong>apresentação completa</strong> (funcionalidades, requisitos, planos) e a <strong>consultoria especializada</strong> ficam na matriz: caracore.com.br. Aqui na loja você encontra o download desktop e os links essenciais.</p>
             </div>
         </section>
 
-        <p class="nav-section-title">Navegação Estratégica</p>
+        <p class="nav-section-title">Links</p>
         <div class="nav-grid">
-            <a href="#feedback" class="nav-card" title="Compartilhe suas impressões sobre a performance do JavaFX 21">
-                <span class="icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                    </svg>
-                </span>
-                <h3>Balcão de Feedback Beta</h3>
-                <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
-            </a>
-            <a href="manual/index.html" class="nav-card" target="_blank" title="Explore o conceito de 'Resiliência Offline'">
-                <span class="icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                        <path d="M14 2v6h6"/>
-                    </svg>
-                </span>
-                <h3>Manual da Aplicação</h3>
-                <p>Explore o conceito de 'Resiliência Offline' e como protegemos seus dados.</p>
-            </a>
-            <a href="download.html" class="nav-card" title="Página de Download - Coming Soon">
+            <a href="download.html" class="nav-card" title="Baixar aplicativo">
                 <span class="icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
@@ -58,51 +79,49 @@
                         <line x1="12" y1="15" x2="12" y2="3"/>
                     </svg>
                 </span>
-                <h3>Download (Coming Soon)</h3>
-                <p>Disponível em 08 de novembro de 2026! Instalador Windows (.exe).</p>
+                <h3>Download</h3>
+                <p>JAR e releases para Windows. JDK 21 necessário. Guia na matriz.</p>
             </a>
-            <a href="https://github.com/chmulato/CSO-releases" class="nav-card" target="_blank" rel="noopener">
+            <a href="manual/index.html" class="nav-card" title="Manual do usuário">
                 <span class="icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        <path d="M8 7h8"/>
+                        <path d="M8 11h8"/>
                     </svg>
                 </span>
-                <h3>Repositório</h3>
-                <p>Acesso ao código e instruções de execução (JavaFX 21).</p>
+                <h3>Manual do usuário</h3>
+                <p>Visão geral, requisitos, instalação e uso: entregas, couriers e clientes.</p>
             </a>
+            <a href="feedback/index.html" class="nav-card" title="Suporte e feedback">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                </span>
+                <h3>Canal de feedback</h3>
+                <p>E-mail suporte@caracore.com.br, WhatsApp e Telegram. Não atendemos ligações telefônicas.</p>
+            </a>
+            <div class="nav-card" style="cursor:default;" role="text">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </span>
+                <h3>Cara Core Informática</h3>
+                <p>Portfólio e produtos em caracore.com.br (único domínio da startup).</p>
+            </div>
         </div>
 
-        <section id="feedback" class="methodology" style="margin-top: 2rem;">
-            <div class="card">
-                <h2>Balcão de Feedback Beta</h2>
-                <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
-                <form class="feedback-form" id="feedbackForm">
-                    <label for="title">Título do Feedback</label>
-                    <input type="text" id="title" placeholder="Título do Feedback" required>
-                    <label for="body">Descrição</label>
-                    <textarea id="body" placeholder="Descreva seu feedback..." rows="5" required></textarea>
-                    <button type="submit">Enviar para GitHub Issues</button>
-                </form>
-            </div>
-        </section>
-
-        <section id="download-simulador" class="methodology" style="margin-top: 2rem;">
-            <div class="card" style="border-left: 4px solid var(--accent-gold);">
-                <h2>Download do CSOnline (Windows)</h2>
-                <p>O aplicativo <strong>CSOnline RC-1</strong> está disponível como instalador .exe para Windows. Resiliência offline garantida; checksums SHA-256 para verificação de integridade.</p>
-                <p style="margin-top: 12px;"><a href="download.html" style="color: var(--accent-blue); font-weight: 500;">Ir para a página de download →</a></p>
-                <div id="countdown" style="margin-top: 1rem;"></div>
-            </div>
-        </section>
-
         <footer>
-            <p><a href="https://github.com/chmulato/CSO-releases" target="_blank" rel="noopener">Repositório GitHub: chmulato/CSO-releases</a></p>
-            <p>Powered by Microsoft | Distributed by GitHub</p>
-            <p class="soberania">Desenvolvido para o setor de Transporte e Logística Brasileira.</p>
-            <p class="apostila-rodape">&copy; 2026 Cara Core Informática - Segurança e Inovação · <a href="manual/index.html">Manual da Aplicação</a> · <a href="download.html">Download do CSOnline RC-1</a>.</p>
+            <p><a href="index.html">CaraCore CSO — Loja</a> · <a href="https://github.com/chmulato/caracore-cso-releases" target="_blank">Repositório: caracore-cso-releases</a> · Portfólio: caracore.com.br</p>
+            <p>CaraCore CSO — Sistema de gestão para transportadoras. Lançamento oficial: 08 de novembro de 2026.</p>
         </footer>
     </div>
-
     <script src="assets/js/main.js"></script>
+    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Versão de teste oficial">Seed<span class="evo-beta-tooltip">Esta é uma versão oficial de teste da Cara Core Informática para parceiros do Plano Premium+.</span></span></div>
+    <footer class="evo-roadmap-footer" role="contentinfo"><p class="evo-roadmap-title">Próximos passos</p><ul class="evo-roadmap-list"><li>Domínio próprio <span class="evo-roadmap-tag">Março/2026</span></li><li>Integração PIX nativa</li><li>IA para estoque</li></ul></footer>
+    <div class="evo-feedback-fab"><a href="https://wa.me/5541999097797?text=Olá!%20Sugestão%20de%20melhoria%20para%20a%20loja%20em%20fase%20Seed%20—%20Cara%20Core%20Informática." class="evo-feedback-btn" target="_blank" rel="noopener noreferrer" aria-label="Sugira uma melhoria pelo WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Sugira uma melhoria</a></div>
 </body>
 </html>

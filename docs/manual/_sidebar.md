@@ -1,4 +1,4 @@
 - [Introdução](README.md)
-- [Resiliência Offline](resiliencia-offline.md)
-- [Proteção de Dados](protecao-dados.md)
-- [Instalação](instalacao.md)
+- [Instalação e Configuração](instalacao.md)
+- [Gestão de Entregas](resiliencia-offline.md)
+- [Gestão de Couriers](protecao-dados.md)
