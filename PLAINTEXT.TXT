@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+REVISÃO DE SESSÃO: fev 2026 | STATUS: CONSTRUÇÃO DA VITRINE GITHUB
+--------------------------------------------------------------------------------
+
+PRODUTO: CSOnline RC-1 (Localhost Soberano).
+DOMÍNIO: GitHub Pages / caracore-cso-releases.
+DATA MESTRE: 08/11/2026.
+
+INFRAESTRUTURA:
+- [x] Implementação de GitHub Issues como 'Balcão de Feedback'.
+- [x] Landing Page com contagem regressiva para Novembro.
+- [x] Manual Técnico focado em Resiliência Offline via Docsify.
+- [x] Estética com ícones e animações (Minecraft/IA Criativa).
+- [x] Rodapé Powered by Microsoft/Distributed by GitHub.
+- [x] README.md Principal como Vitrine Oficial com Badges e Roadmap.
+- [x] Estrutura reorganizada para padrão GitHub /docs.
+- [x] Subpastas /docs/manual e /docs/feedback criadas.
+- [x] Página download.html configurada para apontar dinamicamente para Releases.
+- [x] styles.css criado para identidade visual Cara Core.
+- [x] build_evaluator.py atualizado para validar binários e metadados para /docs.
+
+FILOSOFIA:
+"A tecnologia de ponta da Microsoft e do Google encontra a soberania do Localhost.
+Inovação sem dependência, diversão com seriedade."
+
+ATUALIZAÇÕES RECENTES:
+- Criada index.html com CTA impactante.
+- Formulário de feedback integrado ao GitHub Issues.
+- Documentação Docsify em /docs.
+- Contador regressivo para lançamento.
+- README.md aprimorado com narrativa inspiradora e tabela de roadmap.
+--------------------------------------------------------------------------------

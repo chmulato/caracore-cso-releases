@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+FEEDBACK.TXT - Balcão de Feedback Beta do CSOnline RC-1
+--------------------------------------------------------------------------------
+
+Este arquivo serve como registro de feedbacks coletados durante a fase beta.
+
+ATUALIZAÇÃO: 11/02/2026 - README.md Principal Criado
+O README.md foi aprimorado como Vitrine Oficial, destacando proposta de valor, analogia com Minecraft, e roadmap até novembro 2026. Feedback sobre a apresentação é bem-vindo!
+
+INSTRUÇÕES PARA USUÁRIOS:
+- Use o formulário na landing page (index.html) para enviar feedback diretamente aos GitHub Issues.
+- Ou registre aqui manualmente.
+
+TEMPLATE DE FEEDBACK:
+- Data: [DD/MM/AAAA]
+- Usuário: [Nome ou Anon]
+- Tópico: [Performance JavaFX 21 / Resiliência Offline / UI/UX / Vitrine/README / Outros]
+- Descrição: [Detalhes do feedback]
+- Sugestões: [Ideias de melhoria]
+
+EXEMPLOS DE FEEDBACKS:
+- Data: 11/02/2026
+- Usuário: Beta Tester 1
+- Tópico: Performance JavaFX 21
+- Descrição: Aplicação roda suavemente no Windows 10, mas há lag em animações pesadas.
+- Sugestões: Otimizar renderização de gráficos.
+
+--------------------------------------------------------------------------------

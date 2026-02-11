@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSOnline RC-1: Soberania Localhost</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 CSOnline RC-1: Soberania Localhost para o Futuro do Transporte</h1>
+        <p class="cta">Descubra a resiliência offline e a diversão criativa da Cara Core Informática!</p>
+    </header>
+
+    <section id="about">
+        <h2>🌟 Sobre o CSOnline</h2>
+        <p>Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa.</p>
+        <div class="icon">🧱✨</div>
+    </section>
+
+    <section id="feedback">
+        <h2>📝 Balcão de Feedback Beta</h2>
+        <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
+        <form class="feedback-form" id="feedbackForm">
+            <input type="text" id="title" placeholder="Título do Feedback" required>
+            <textarea id="body" placeholder="Descreva seu feedback..." rows="5" required></textarea>
+            <button type="submit">Enviar para GitHub Issues</button>
+        </form>
+    </section>
+
+    <section id="docs">
+        <h2>📖 Manual da Aplicação</h2>
+        <p>Explore o conceito de 'Resiliência Offline' e como protegemos seus dados.</p>
+        <a href="manual/index.html" target="_blank">Acesse a Documentação (Docsify)</a>
+    </section>
+
+    <section id="download" class="download">
+        <h2>⬇️ Download (Coming Soon)</h2>
+        <p>Disponível em 08 de novembro de 2026!</p>
+        <div id="countdown"></div>
+        <a href="download.html">Página de Download</a>
+    </section>
+
+    <footer>
+        <p>Powered by Microsoft | Distributed by GitHub</p>
+        <p>&copy; 2026 Cara Core Informática - Segurança e Inovação</p>
+    </footer>
+
+    <script>
+        // Contador regressivo para 08/11/2026
+        const targetDate = new Date('2026-11-08T00:00:00').getTime();
+        const countdownElement = document.getElementById('countdown');
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            } else {
+                countdownElement.innerHTML = 'Lançamento Disponível!';
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+
+        // Formulário de feedback
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const title = encodeURIComponent(document.getElementById('title').value);
+            const body = encodeURIComponent(document.getElementById('body').value);
+            const url = `https://github.com/chmulato/caracore-cso-releases/issues/new?title=${title}&body=${body}&labels=feedback`;
+            window.open(url, '_blank');
+        });
+    </script>
+</body>
+</html>
