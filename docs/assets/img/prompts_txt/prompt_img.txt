@@ -1,5 +1,8 @@
 # Prompts para Geração de Imagens - CSOnline RC-1 Vitrine
 
+## Imagem Principal da Vitrine (docs/assets/img/vitrine-main.jpg)
+Prompt: "A dynamic illustration of a medium-sized Brazilian transportation company in action: a fleet of trucks navigating rural roads in the Brazilian countryside with mountains and palm trees in the background, symbolizing logistics and delivery. In the foreground, a glowing digital interface on a tablet showing offline data management with SQLite icons, JavaFX UI elements, and secure local storage symbols. Overlay subtle elements of resilience: a shield protecting data from cloud dependency, a localhost server icon, and Microsoft/GitHub badges. The scene conveys reliability, innovation, and sovereignty for medium enterprises facing connectivity challenges in emerging markets. High resolution, professional digital art, warm Brazilian colors with tech blue accents."
+
 ## Background Principal (docs/assets/img/background.jpg)
 Prompt: "A futuristic cityscape at night with glowing blue and purple lights, representing technology and innovation, with subtle Minecraft-style blocks in the foreground, high resolution, digital art."
 
