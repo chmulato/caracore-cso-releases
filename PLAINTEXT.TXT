@@ -17,8 +17,9 @@ INFRAESTRUTURA:
 - [x] Subpastas /docs/manual e /docs/feedback criadas.
 - [x] Página download.html configurada para apontar dinamicamente para Releases.
 - [x] styles.css criado para identidade visual Cara Core.
-- [x] build_evaluator.py atualizado para validar binários e metadados para /docs.
-
+- [x] build_evaluator.py atualizado para validar binários e metadados para /docs.- [x] Componentes visuais centralizados em /docs/assets (css, js, img).
+- [x] JavaScript extraído para assets/js/main.js.
+- [x] Prompts para imagens em assets/img/prompts_txt/prompt_img.txt.
 FILOSOFIA:
 "A tecnologia de ponta da Microsoft e do Google encontra a soberania do Localhost.
 Inovação sem dependência, diversão com seriedade."
