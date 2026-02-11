@@ -7,52 +7,101 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="assets/img/caracore-cso.png" alt="Logo Cara Core CSO" style="max-width: 200px; height: auto; float: left; margin-right: 20px;">
-        <img src="assets/img/vitrine-main.jpg" alt="Cara Core CSO - Soberania para Transportadoras Brasileiras" style="max-width: 100%; height: auto; margin-bottom: 20px; clear: both;">
-        <h1>🚀 CSOnline RC-1: Soberania Localhost para o Futuro do Transporte</h1>
-        <p class="cta">Descubra a resiliência offline e a diversão criativa da Cara Core Informática!</p>
-    </header>
+    <div class="wrapper">
+        <header>
+            <img src="assets/img/caracore-cso.png" alt="Logo Cara Core CSO" style="max-width: 200px; height: auto; display: block; margin: 0 auto 20px auto;">
+            <img src="assets/img/vitrine-main.jpg" alt="Cara Core CSO - Soberania para Transportadoras Brasileiras" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+            <h1>🚀 CSOnline RC-1: Soberania Localhost para o Futuro do Transporte</h1>
+            <p class="subtitle">Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa.</p>
+            <p class="tagline">Descubra a resiliência offline e a diversão criativa da Cara Core Informática!</p>
+        </header>
 
-    <section id="about">
-        <h2>🌟 Sobre o CSOnline</h2>
-        <p>Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa.</p>
-        <div class="icon">🧱✨</div>
-    </section>
+        <section class="methodology">
+            <div class="card">
+                <h2>🌟 Sobre o CSOnline</h2>
+                <p>Uma aplicação JavaFX 21 que traz soberania aos dados locais, inspirada na magia do Minecraft e na inteligência da IA Criativa. Mantém controle total dos dados, mesmo offline.</p>
+                <div style="text-align: center; margin-top: 1rem;">🧱✨</div>
+            </div>
+            <div class="card card-differential">
+                <h2>🤝 Identificação com o Cliente</h2>
+                <img src="assets/img/caracore-cso-to-customers.png" alt="Identificação do Cliente com Cara Core CSO" style="max-width: 100%; height: auto; margin: 1rem 0;">
+                <p>Entendemos os desafios das transportadoras médias brasileiras. Com CSOnline, você mantém controle total dos dados, mesmo offline.</p>
+            </div>
+        </section>
 
-    <section id="customer-identification">
-        <h2>🤝 Identificação com o Cliente</h2>
-        <img src="assets/img/caracore-cso-to-customers.png" alt="Identificação do Cliente com Cara Core CSO" style="max-width: 100%; height: auto; margin: 20px 0;">
-        <p>Entendemos os desafios das transportadoras médias brasileiras. Com CSOnline, você mantém controle total dos dados, mesmo offline.</p>
-    </section>
+        <p class="nav-section-title">Navegação Estratégica</p>
+        <div class="nav-grid">
+            <a href="#feedback" class="nav-card" title="Compartilhe suas impressões sobre a performance do JavaFX 21">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                </span>
+                <h3>Balcão de Feedback Beta</h3>
+                <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
+            </a>
+            <a href="manual/index.html" class="nav-card" target="_blank" title="Explore o conceito de 'Resiliência Offline'">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <path d="M14 2v6h6"/>
+                    </svg>
+                </span>
+                <h3>Manual da Aplicação</h3>
+                <p>Explore o conceito de 'Resiliência Offline' e como protegemos seus dados.</p>
+            </a>
+            <a href="download.html" class="nav-card" title="Página de Download - Coming Soon">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                </span>
+                <h3>Download (Coming Soon)</h3>
+                <p>Disponível em 08 de novembro de 2026! Instalador Windows (.exe).</p>
+            </a>
+            <a href="https://github.com/chmulato/CSO-releases" class="nav-card" target="_blank" rel="noopener">
+                <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    </svg>
+                </span>
+                <h3>Repositório</h3>
+                <p>Acesso ao código e instruções de execução (JavaFX 21).</p>
+            </a>
+        </div>
 
-    <section id="feedback">
-        <h2>📝 Balcão de Feedback Beta</h2>
-        <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
-        <form class="feedback-form" id="feedbackForm">
-            <input type="text" id="title" placeholder="Título do Feedback" required>
-            <textarea id="body" placeholder="Descreva seu feedback..." rows="5" required></textarea>
-            <button type="submit">Enviar para GitHub Issues</button>
-        </form>
-    </section>
+        <section id="feedback" class="methodology" style="margin-top: 2rem;">
+            <div class="card">
+                <h2>📝 Balcão de Feedback Beta</h2>
+                <p>Compartilhe suas impressões sobre a performance do JavaFX 21!</p>
+                <form class="feedback-form" id="feedbackForm">
+                    <label for="title">Título do Feedback</label>
+                    <input type="text" id="title" placeholder="Título do Feedback" required>
+                    <label for="body">Descrição</label>
+                    <textarea id="body" placeholder="Descreva seu feedback..." rows="5" required></textarea>
+                    <button type="submit">Enviar para GitHub Issues</button>
+                </form>
+            </div>
+        </section>
 
-    <section id="docs">
-        <h2>📖 Manual da Aplicação</h2>
-        <p>Explore o conceito de 'Resiliência Offline' e como protegemos seus dados.</p>
-        <a href="manual/index.html" target="_blank">Acesse a Documentação (Docsify)</a>
-    </section>
+        <section id="download-simulador" class="methodology" style="margin-top: 2rem;">
+            <div class="card" style="border-left: 4px solid var(--accent-gold);">
+                <h2>⬇️ Download do CSOnline (Windows)</h2>
+                <p>O aplicativo <strong>CSOnline RC-1</strong> está disponível como instalador .exe para Windows. Resiliência offline garantida; checksums SHA-256 para verificação de integridade.</p>
+                <p style="margin-top: 12px;"><a href="download.html" style="color: var(--accent-blue); font-weight: 500;">Ir para a página de download →</a></p>
+                <div id="countdown" style="margin-top: 1rem;"></div>
+            </div>
+        </section>
 
-    <section id="download" class="download">
-        <h2>⬇️ Download (Coming Soon)</h2>
-        <p>Disponível em 08 de novembro de 2026!</p>
-        <div id="countdown"></div>
-        <a href="download.html">Página de Download</a>
-    </section>
-
-    <footer>
-        <p>Powered by Microsoft | Distributed by GitHub</p>
-        <p>&copy; 2026 Cara Core Informática - Segurança e Inovação</p>
-    </footer>
+        <footer>
+            <p><a href="https://github.com/chmulato/CSO-releases" target="_blank" rel="noopener">Repositório GitHub: chmulato/CSO-releases</a></p>
+            <p>Powered by Microsoft | Distributed by GitHub</p>
+            <p class="soberania">Desenvolvido para o setor de Transporte e Logística Brasileira.</p>
+            <p class="apostila-rodape">&copy; 2026 Cara Core Informática - Segurança e Inovação · <a href="manual/index.html">Manual da Aplicação</a> · <a href="download.html">Download do CSOnline RC-1</a>.</p>
+        </footer>
+    </div>
 
     <script src="assets/js/main.js"></script>
 </body>
