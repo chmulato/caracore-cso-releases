@@ -6,6 +6,9 @@ Prompt: "A dynamic illustration of a medium-sized Brazilian transportation compa
 ## Imagem do Cara Core CSO (docs/assets/img/caracore-cso.png)
 Prompt: "A professional logo-style image for 'Cara Core CSO' featuring the text 'Cara Core' with 'CSO' as an acronym, integrated with tech icons like a shield for security, a database icon for SQLite, JavaFX UI elements, and subtle Brazilian elements like a palm tree or road motif. Modern, clean design with blue and green gradients, high resolution PNG, suitable for branding and web use."
 
+## Imagem para Identificação do Cliente com o Produto (docs/assets/img/caracore-cso-to-customers.png)
+Prompt: "An empathetic illustration showing a Brazilian transport company owner looking relieved and confident, holding a tablet with CSOnline interface displaying secure offline data, while in the background, trucks are running smoothly on roads, and subtle icons of connectivity issues (broken wifi) are fading away. Include elements like a shield over data, localhost icon, and text overlays like 'Soberania Local' and 'Resiliência Offline'. Warm, relatable colors, high resolution, designed to make medium-sized business owners feel understood and empowered by the product."
+
 ## Background Principal (docs/assets/img/background.jpg)
 Prompt: "A futuristic cityscape at night with glowing blue and purple lights, representing technology and innovation, with subtle Minecraft-style blocks in the foreground, high resolution, digital art."
 
