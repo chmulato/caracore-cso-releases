@@ -1,0 +1,27 @@
+# Prompts para Geração de Imagens - CSOnline RC-1 Vitrine
+
+## Background Principal (docs/assets/img/background.jpg)
+Prompt: "A futuristic cityscape at night with glowing blue and purple lights, representing technology and innovation, with subtle Minecraft-style blocks in the foreground, high resolution, digital art."
+
+## Ícone de Foguete (docs/assets/img/rocket-icon.png)
+Prompt: "A sleek rocket icon with glowing effects, inspired by space exploration and AI creativity, simple and modern, transparent background."
+
+## Ícone de Bloco Minecraft (docs/assets/img/block-icon.png)
+Prompt: "A pixelated Minecraft block icon with creative colors, representing building and fun, 64x64 pixels, PNG format."
+
+## Ícone de IA (docs/assets/img/ai-icon.png)
+Prompt: "An abstract AI brain icon with circuit patterns and glowing nodes, symbolizing intelligence and creativity, minimalist design."
+
+## Logo Cara Core (docs/assets/img/logo.png)
+Prompt: "A professional logo for 'Cara Core Informática' with tech elements, blue and green colors, clean typography, high quality."
+
+## Imagem de Fundo para Seções (docs/assets/img/section-bg.jpg)
+Prompt: "Abstract background with gradients of blue and tech patterns, suitable for web sections, subtle and professional."
+
+## Ícone de Download (docs/assets/img/download-icon.png)
+Prompt: "A download arrow icon with modern design, glowing effect, for web use."
+
+## Ícone de Feedback (docs/assets/img/feedback-icon.png)
+Prompt: "A speech bubble icon with feedback elements, friendly and inviting, for user interaction."
+
+Nota: Todas as imagens devem ser otimizadas para web, com tamanhos apropriados e formatos PNG/JPG para melhor performance.
