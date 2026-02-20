@@ -1,5 +1,5 @@
-// Contador regressivo para 08/11/2026
-const targetDate = new Date('2026-11-08T00:00:00').getTime();
+// Contador regressivo para 08/11/2028
+const targetDate = new Date('2028-11-08T00:00:00').getTime();
 const countdownElement = document.getElementById('countdown');
 
 function updateCountdown() {

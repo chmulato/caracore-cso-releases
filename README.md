@@ -8,7 +8,7 @@ Sistema profissional para gestão completa de transportadoras: controle de entre
 ![Windows](https://img.shields.io/badge/Windows-10/11-blue)
 ![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-black)
 
-**Lançamento Oficial: 08 de novembro de 2026**
+**Lançamento Oficial: 08 de novembro de 2028**
 
 ## Visão Geral
 
@@ -95,7 +95,7 @@ Para apresentação completa e consultoria: [caracore.com.br](https://caracore.c
 
 - **Fase**: Seed (teste oficial)
 - **Versão Atual**: RC-1 (Release Candidate)
-- **Lançamento**: 08 de novembro de 2026
+- **Lançamento**: 08 de novembro de 2028
 - **Status**: Desenvolvimento ativo
 
 ## Roadmap
@@ -105,13 +105,16 @@ Para apresentação completa e consultoria: [caracore.com.br](https://caracore.c
 | Fevereiro 2026 | Vitrine da loja criada | ✅ Completo |
 | Março 2026 | Testes internos | ✅ Completo |
 | Abril 2026 | Documentação completa | ✅ Completo |
-| Maio 2026 | Otimizações de performance | 🔄 Em andamento |
-| Junho 2026 | Validação de segurança | 📅 Planejado |
-| Julho 2026 | Testes externos | 📅 Planejado |
-| Agosto 2026 | Preparação para RC | 📅 Planejado |
-| Setembro 2026 | Ajustes finais | 📅 Planejado |
-| Outubro 2026 | Preparação para lançamento | 📅 Planejado |
-| **Novembro 2026** | **Lançamento oficial - 08/11** | 🎯 Próximo |
+| Maio 2026 | Otimizações de performance | ✅ Completo |
+| Junho 2026 | Validação de segurança | ✅ Completo |
+| Julho 2026 | Testes externos | ✅ Completo |
+| Agosto 2026 | Preparação para RC | ✅ Completo |
+| Março 2027 | Ajustes finais v1 | 📅 Planejado |
+| Setembro 2027 | Testes de aceitação externa | 📅 Planejado |
+| Janeiro 2028 | Preparação para RC final | 📅 Planejado |
+| Maio 2028 | Ajustes pós-RC | 📅 Planejado |
+| Setembro 2028 | Preparação para lançamento | 📅 Planejado |
+| **Novembro 2028** | **Lançamento oficial - 08/11** | 🎯 Meta |
 
 ## Contribuição
 

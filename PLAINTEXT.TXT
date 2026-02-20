@@ -4,7 +4,7 @@ REVISÃO DE SESSÃO: fev 2026 | STATUS: CONSTRUÇÃO DA VITRINE GITHUB
 
 PRODUTO: CSOnline RC-1 (Localhost Soberano).
 DOMÍNIO: GitHub Pages / caracore-cso-releases.
-DATA MESTRE: 08/11/2026.
+DATA MESTRE: 08/11/2028.
 
 INFRAESTRUTURA:
 - [x] Implementação de GitHub Issues como 'Balcão de Feedback'.
