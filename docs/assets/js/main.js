@@ -3,6 +3,10 @@ const targetDate = new Date('2028-11-08T00:00:00').getTime();
 const countdownElement = document.getElementById('countdown');
 
 function updateCountdown() {
+    if (!countdownElement) {
+        return;
+    }
+
     const now = new Date().getTime();
     const distance = targetDate - now;
 
@@ -18,13 +22,24 @@ function updateCountdown() {
     }
 }
 
-setInterval(updateCountdown, 1000);
+if (countdownElement) {
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+}
 
 // Formulário de feedback
-document.getElementById('feedbackForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const title = encodeURIComponent(document.getElementById('title').value);
-    const body = encodeURIComponent(document.getElementById('body').value);
-    const url = `https://github.com/chmulato/caracore-cso-releases/issues/new?title=${title}&body=${body}&labels=feedback`;
-    window.open(url, '_blank');
-});
+const feedbackForm = document.getElementById('feedbackForm');
+
+if (feedbackForm) {
+    feedbackForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const titleInput = document.getElementById('title');
+        const bodyInput = document.getElementById('body');
+        const title = encodeURIComponent(titleInput ? titleInput.value : 'Feedback CaraCore CSO');
+        const body = encodeURIComponent(bodyInput ? bodyInput.value : '');
+        const url = `https://github.com/chmulato/caracore-cso-releases/issues/new?title=${title}&body=${body}&labels=feedback`;
+
+        window.open(url, '_blank');
+    });
+}
