@@ -1,20 +1,20 @@
 # Changelog - CaraCore CSO Loja
 
-Todas as mudancas relevantes da loja/publicacao ficam registradas aqui.
+Este arquivo registra alterações relevantes da loja e da documentação de publicação.
 
-## [2026-04-01] - Atualizacao de vitrine para publicacao
+## 2026-04-01 - Atualização de vitrine para publicação
 
-### Adicionado
-- Banner de pre-lancamento com data oficial da v1.0.0 (08/11/2028) na home da loja.
-- CTA de demonstracao na matriz (caracore.com.br) e reforco de posicionamento comercial para transportadoras.
-- Pagina de download com orientacao de instalacao e verificacao de integridade (SHA-256).
-- Canal de feedback com rotas diretas para e-mail, WhatsApp e Telegram.
-- Badge Seed para parceiros Premium+, bloco de proximos passos e botao "Sugira uma melhoria" na area de feedback.
-- Manual publicado via Docsify.
+### Inclusões
+1. Banner de pré-lançamento com data oficial da versão 1.0.0 (08/11/2028) na página inicial.
+2. Chamada para demonstração na matriz institucional.
+3. Página de download com orientação de instalação e verificação de integridade SHA-256.
+4. Canal de feedback com rotas para e-mail, WhatsApp e Telegram.
+5. Publicação do manual em estrutura Docsify.
 
-### Alterado
-- Mensageria institucional de seguranca de dados locais (SQLite) e operacao offline.
-- Consolidacao da narrativa de loja + matriz para apresentacao completa e consultoria.
+### Ajustes
+1. Revisão da comunicação institucional sobre segurança de dados locais em SQLite.
+2. Consolidação da relação entre loja e matriz para apresentação e consultoria.
 
-### Seguranca
-- Registro de validacao CVE em 2026-04-01 sem CVEs criticos e sem CVEs de alta severidade (0/0).
+### Segurança
+1. Validação CVE em 2026-04-01 sem ocorrências críticas.
+2. Validação CVE em 2026-04-01 sem ocorrências de alta severidade.

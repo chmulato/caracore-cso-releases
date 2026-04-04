@@ -1,140 +1,67 @@
-# CaraCore CSO — Loja e Releases
+# CaraCore CSO - Loja e Releases
 
-Sistema profissional para gestão completa de transportadoras: controle de entregas, couriers, clientes e preços. Aplicação desktop Windows desenvolvida em Java 25 + JavaFX.
+Repositório de vitrine e distribuição do CaraCore CSO, solução desktop para gestão de transportadoras e centros de distribuição.
 
-![Java 25](https://img.shields.io/badge/Java-25-blue)
-![JavaFX](https://img.shields.io/badge/JavaFX-25-orange)
-![SQLite](https://img.shields.io/badge/SQLite-3.0-green)
-![Windows](https://img.shields.io/badge/Windows-10/11-blue)
-![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-black)
+## Objetivo
 
-**Lançamento Oficial: 08 de novembro de 2028**
+Este repositório centraliza:
+1. Página institucional da loja.
+2. Página de download e orientações de instalação.
+3. Canal oficial de feedback.
+4. Documentação operacional para usuários e parceiros.
 
-## Visão Geral
+## Produto
 
-Bem-vindo à loja oficial do **CaraCore CSO**, o sistema de gestão profissional para transportadoras da Cara Core Informática. Esta vitrine apresenta o produto, documentação e recursos para download.
+O CaraCore CSO atende operações logísticas com foco em controle local de dados e continuidade operacional.
 
-### O que é o CaraCore CSO?
+Principais capacidades:
+1. Gestão de entregas e acompanhamento de status.
+2. Cadastro e gestão de couriers.
+3. Gestão de clientes e centros de distribuição.
+4. Administração de preços e tabelas.
+5. Operação com dados locais em SQLite.
 
-O **CaraCore CSO** é uma aplicação desktop Windows que oferece controle completo das operações de transporte:
+## Base Técnica
 
-- **Gestão de Entregas**: Acompanhamento completo do ciclo logístico
-- **Controle de Couriers**: Cadastro e gestão de entregadores
-- **Base de Clientes**: Controle de destinatários e remetentes
-- **Gestão de Preços**: Tabelas de preços e cálculos automáticos
-- **Dados Locais**: SQLite para máxima segurança e performance
-- **Operação Offline**: Funciona 100% sem dependência de internet
+1. Linguagem: Java 25.
+2. Interface: JavaFX 25.
+3. Banco de dados: SQLite.
+4. Plataforma: Windows Desktop.
+5. Distribuição: GitHub Releases e GitHub Pages.
 
-## Arquitetura Técnica
+## Download
 
-- **Linguagem**: Java 25 (LTS)
-- **Interface**: JavaFX 25
-- **Banco de Dados**: SQLite 3.0
-- **Plataforma**: Windows Desktop (EXE)
-- **Distribuição**: GitHub Releases + GitHub Pages
+Página da loja:
+https://cso.caracore.com.br/
 
-## Funcionalidades Principais
-
-### Gestão de Entregas
-- Cadastro completo de entregas
-- Acompanhamento de status em tempo real
-- Histórico detalhado
-- Relatórios de performance
-
-### Gestão de Couriers
-- Cadastro de entregadores
-- Controle de disponibilidade
-- Histórico de entregas
-- Avaliação de performance
-
-### Gestão de Clientes
-- Base de dados de clientes
-- Controle de endereços
-- Histórico de interações
-- Segmentação e relatórios
-
-### Controle de Preços
-- Tabelas de preços configuráveis
-- Cálculos automáticos
-- Relatórios de faturamento
-- Controle de margem
-
-## Download e Instalação
-
-### Pré-requisitos
-- Windows 10/11 (64 bits)
-- 4GB RAM mínimo (8GB recomendado)
-- 500MB espaço em disco
-
-### Download
-Acesse as [GitHub Releases](https://github.com/chmulato/caracore-cso-releases/releases) para baixar a versão mais recente.
-
-### Instalação
-1. Baixe o instalador `CaraCore-CSO-Setup.exe`
-2. Execute como administrador
-3. Siga o assistente de instalação
-4. Use o atalho da área de trabalho
+Canal de releases:
+https://github.com/chmulato/caracore-cso-releases/releases
 
 ## Documentação
 
-- **[Manual do Usuário](docs/manual/)**: Guia completo de uso
-- **[Canal de Feedback](docs/feedback/)**: Suporte e contato
-- **[Página de Download](docs/download.html)**: Instruções detalhadas
+1. Manual do usuário: [docs/manual/README.md](docs/manual/README.md).
+2. Guia de instalação: [docs/manual/instalacao.md](docs/manual/instalacao.md).
+3. Proteção de dados: [docs/manual/protecao-dados.md](docs/manual/protecao-dados.md).
+4. Resiliência offline: [docs/manual/resiliencia-offline.md](docs/manual/resiliencia-offline.md).
 
-## Suporte
+## Canais de Suporte
 
-### Canais Oficiais
-- **E-mail**: suporte@caracore.com.br
-- **WhatsApp**: +55 41 9 9909-7797
-- **Telegram**: @chmulato
+1. E-mail: suporte@caracore.com.br.
+2. WhatsApp: +55 41 9 9909-7797.
+3. Telegram: @chmulato.
 
-### Matriz
-Para apresentação completa e consultoria: [caracore.com.br](https://caracore.com.br)
+Site institucional:
+https://caracore.com.br/
 
-## Status do Projeto
+## Situação Atual
 
-- **Fase**: Seed (teste oficial)
-- **Versão Atual**: RC-1 (Release Candidate)
-- **Lançamento**: 08 de novembro de 2028
-- **Status**: Desenvolvimento ativo
-- **Validação CVE (01/04/2026)**: `validate_cves_for_java` sem CVEs críticos ou de alta severidade (0/0)
-
-## Roadmap
-
-| Mês/Ano | Milestone | Status |
-|---------|-----------|--------|
-| Fevereiro 2026 | Vitrine da loja criada | ✅ Completo |
-| Março 2026 | Testes internos | ✅ Completo |
-| Abril 2026 | Documentação completa | ✅ Completo |
-| Maio 2026 | Otimizações de performance | ✅ Completo |
-| Junho 2026 | Validação de segurança | ✅ Completo |
-| Julho 2026 | Testes externos | ✅ Completo |
-| Agosto 2026 | Preparação para RC | ✅ Completo |
-| Março 2027 | Ajustes finais v1 | 📅 Planejado |
-| Setembro 2027 | Testes de aceitação externa | 📅 Planejado |
-| Janeiro 2028 | Preparação para RC final | 📅 Planejado |
-| Maio 2028 | Ajustes pós-RC | 📅 Planejado |
-| Setembro 2028 | Preparação para lançamento | 📅 Planejado |
-| **Novembro 2028** | **Lançamento oficial - 08/11** | 🎯 Meta |
-
-## Contribuição
-
-Este é um projeto proprietário da Cara Core Informática. Contribuições externas não são aceitas neste momento.
-
-Para sugestões e feedback, use os canais oficiais de suporte.
+1. Fase: Seed.
+2. Versão: RC-1.
+3. Data de lançamento planejada: 08/11/2028.
+4. Verificação CVE em 01/04/2026 sem ocorrências críticas ou de alta severidade.
 
 ## Licença
 
-Este projeto é propriedade da **Cara Core Informática** e está em fase **Seed** (teste oficial para parceiros Premium+).
-
----
-
-**Cara Core Informática** - Sistema de gestão para transportadoras
-Website: [caracore.com.br](https://caracore.com.br)
-Loja: [caracore-cso-releases](https://chmulato.github.io/caracore-cso-releases/)
-
-## Licenca
-
-Este repositorio segue licenciamento proprietario institucional da Cara Core Informatica.
+Este repositório segue licenciamento proprietário institucional da Cara Core Informática.
 Consulte [LICENSE](LICENSE).
 

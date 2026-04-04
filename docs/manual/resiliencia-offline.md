@@ -2,16 +2,22 @@
 
 ## Conceito
 
-A resiliência offline é um pilar fundamental do CSOnline. Ela garante que a aplicação continue funcionando mesmo em ambientes sem conectividade, protegendo os dados do cliente contra perdas ou acessos não autorizados.
+Resiliência offline é a capacidade de manter operação contínua mesmo em ausência de conectividade externa.
 
-## Como Funciona
+## Modelo Operacional
 
-- **Armazenamento Local**: Todos os dados são armazenados localmente no dispositivo do usuário.
-- **Sincronização Opcional**: Quando a conectividade retorna, os dados podem ser sincronizados opcionalmente.
-- **Segurança**: Criptografia local para proteger informações sensíveis.
+1. Armazenamento local de dados no dispositivo operacional.
+2. Processamento local das rotinas críticas do sistema.
+3. Sincronização opcional apenas quando houver conectividade disponível e política habilitada.
 
-## Benefícios
+## Benefícios Operacionais
 
-- Independência de infraestrutura externa.
-- Privacidade e soberania dos dados.
-- Funcionamento ininterrupto.
+1. Continuidade do atendimento em cenários sem internet.
+2. Menor dependência de infraestrutura externa.
+3. Maior previsibilidade de acesso a dados essenciais.
+
+## Recomendações de Implantação
+
+1. Definir rotina de backup local com periodicidade formal.
+2. Validar plano de contingência offline antes da entrada em produção.
+3. Monitorar integridade da base local em ciclos de manutenção.
