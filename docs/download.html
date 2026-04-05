@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://cso.caracore.com.br/">
     <title>Download — Cara Core CSO | Cara Core Informática</title>
     <meta name="description" content="Download do Cara Core CSO para Windows. Requisitos: JDK 25. Instalador .exe e releases. Lançamento oficial 08 de novembro de 2028.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +45,7 @@
                 <li>Ou gerar instalador: scripts de build para Windows</li>
             </ul>
             <p>Quando houver releases publicadas no canal institucional, o instalador estará disponível em:</p>
-            <a href="index.html" class="cta-btn cta-btn-primary" style="display: inline-block; margin-top: 8px; padding: 12px 24px; text-decoration: none; border-radius: 8px;">Download oficial</a>
+            <span class="cta-btn cta-btn-primary" style="display: inline-block; margin-top: 8px; padding: 12px 24px; border-radius: 8px; opacity: 0.5; cursor: default;" aria-disabled="true">Disponível em 08/11/2028</span>
             <p style="margin-top: 20px;">A <strong>apresentação completa</strong> (requisitos, instalação, uso) e a <strong>consultoria</strong> ficam no portal institucional da Cara Core. A vitrine e o download estão no <a href="index.html">canal institucional de releases</a>.</p>
         </section>
 
@@ -62,7 +63,7 @@
         <section class="card" style="border-left: 4px solid var(--accent-gold); background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 32px;">
             <h3>Verificação de Integridade</h3>
             <p>Todos os releases incluem checksums SHA-256 para verificação de integridade. Após o download, verifique o arquivo usando:</p>
-            <code style="display: block; background: var(--bg-elevated); padding: 12px; border-radius: 4px; margin: 12px 0; font-family: 'Courier New', monospace;">certutil -hashfile CSO-Setup.exe SHA256</code>
+            <code style="display: block; background: var(--bg-elevated); padding: 12px; border-radius: 4px; margin: 12px 0; font-family: 'Courier New', monospace;">Get-FileHash -Path .\CSO-Setup.exe -Algorithm SHA256</code>
             <p>Compare o resultado com o hash publicado no release.</p>
         </section>
 
