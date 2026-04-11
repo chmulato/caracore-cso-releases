@@ -51,7 +51,7 @@ https://github.com/chmulato/caracore-cso-releases/releases
 3. Telegram: @chmulato.
 
 Site institucional:
-https://caracore.com.br/
+https://www.caracore.com.br/
 
 ## Situação Atual
 
