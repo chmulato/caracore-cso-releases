@@ -9,7 +9,7 @@
 ## Fonte Oficial de Download
 
 1. Loja: https://cso.caracore.com.br/.
-2. Releases: https://github.com/chmulato/caracore-cso-releases/releases.
+2. Pacotes publicados: página [Download e requisitos](../download.html) nesta loja (mesmo domínio).
 
 ## Procedimento de Instalação
 

@@ -38,8 +38,8 @@ if (feedbackForm) {
         const bodyInput = document.getElementById('body');
         const title = encodeURIComponent(titleInput ? titleInput.value : 'Feedback CaraCore CSO');
         const body = encodeURIComponent(bodyInput ? bodyInput.value : '');
-        const url = `https://github.com/chmulato/caracore-cso-releases/issues/new?title=${title}&body=${body}&labels=feedback`;
+        const url = `mailto:suporte@caracore.com.br?subject=${title}&body=${body}`;
 
-        window.open(url, '_blank');
+        window.location.href = url;
     });
 }

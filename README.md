@@ -27,15 +27,15 @@ Principais capacidades:
 2. Interface: JavaFX 25.
 3. Banco de dados: SQLite.
 4. Plataforma: Windows Desktop.
-5. Distribuição: GitHub Releases e GitHub Pages.
+5. Distribuição: vitrine em https://cso.caracore.com.br/ (GitHub Pages) e artefatos publicados nesse canal quando disponíveis.
 
 ## Download
 
 Página da loja:
 https://cso.caracore.com.br/
 
-Canal de releases:
-https://github.com/chmulato/caracore-cso-releases/releases
+Canal de download na loja:
+https://cso.caracore.com.br/download.html
 
 ## Documentação
 
@@ -50,8 +50,8 @@ https://github.com/chmulato/caracore-cso-releases/releases
 2. WhatsApp: +55 41 9 9909-7797.
 3. Telegram: @chmulato.
 
-Site institucional:
-https://www.caracore.com.br/
+Loja do produto (acesso sem sair do domínio da loja):
+https://cso.caracore.com.br/
 
 ## Situação Atual
 
