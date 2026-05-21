@@ -56,9 +56,10 @@ https://cso.caracore.com.br/
 ## Situação Atual
 
 1. Fase: Seed.
-2. Versão: RC-1.
+2. Versão: RC-2.
 3. Data de lançamento planejada: 08/11/2028.
-4. Verificação CVE em 01/04/2026 sem ocorrências críticas ou de alta severidade.
+4. Verificação CVE em 21/05/2026 sem ocorrências críticas ou de alta severidade.
+5. Sprint mai/2026: UC-01 a UC-10 implementados; ATO 1 (Geometria) do Protocolo Amarelinha testado.
 
 ## Licença
 
