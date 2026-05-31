@@ -1,6 +1,5 @@
 /**
- * Cara Core CSO — Delivery (cara-core-site/delivery/cso)
- * Script compartilhado para páginas que utilizam assets/js.
+ * Cara Core CSO — Loja cso.caracore.com.br. Matriz: portfolio.html#caracore-cso.
  */
 'use strict';
 
