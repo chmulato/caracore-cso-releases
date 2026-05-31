@@ -1,0 +1,23 @@
+---
+description: Memória da loja Cara Core CSO — caracore-cso-releases; vitrine cso.caracore.com.br; lanç. 08/11/2028
+alwaysApply: true
+---
+
+# Memória da Loja — caracore-cso-releases
+
+## Repositório e papel
+- **caracore-cso-releases:** loja (vitrine) do **Cara Core CSO**.
+- **URL:** https://cso.caracore.com.br/
+- **Publicação:** GitHub Pages a partir de **docs/**.
+- **Oficina:** caracore-cso
+
+## Matriz
+- **Portfólio:** `portfolio.html#caracore-cso`
+
+## Mensagem fixa
+- **Lançamento oficial: 08 de novembro de 2028** (banner na vitrine).
+- Gestão de transportes — couriers, clientes, preços; JavaFX desktop.
+
+## Convenções
+- Footer → portfólio `#caracore-cso`
+- Manter data de lançamento sincronizada com matriz e VALIDACAO_NEGOCIO.txt.
