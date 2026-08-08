@@ -1,68 +1,48 @@
-# CaraCore CSO - Loja e Releases
+# Cara Core CSO - Loja e Releases
 
-Repositório de vitrine e distribuição do CaraCore CSO, solução desktop para gestão de transportadoras e centros de distribuição.
+Repositório de vitrine e distribuição do ecossistema **Cara Core CSO**, uma solução dual para gestão de frotas e operações logísticas.
 
-## Objetivo
+## O Ecossistema CSO
+
+O ecossistema é dividido em duas aplicações que trabalham em conjunto:
+
+### 1. Gestão de Frotas (Lançamento: 08/11/2026)
+- **Status**: Em Produção.
+- **Plataforma**: Web / Cloud (Java, Quarkus, PostgreSQL).
+- **Objetivo**: Gestão operacional leve, captação, planos de assinatura, e relatórios consolidados.
+- **Acesso**: [Aplicação Online (Railway)](https://caracore-cso-quarkus-production.up.railway.app/)
+
+### 2. Gestão de Transportes (Lançamento: 08/11/2028)
+- **Status**: Em Desenvolvimento (Oficina).
+- **Plataforma**: Desktop / Local (Java 25, JavaFX, SQLite).
+- **Objetivo**: Atuar como "bunker" local acoplado ao Gestão de Frotas, provendo processamento pesado de telemetria, resiliência offline-first e backup de dados.
+
+## Objetivo deste Repositório
 
 Este repositório centraliza:
-1. Página institucional da loja.
-2. Página de download e orientações de instalação.
-3. Canal oficial de feedback.
-4. Documentação operacional para usuários e parceiros.
+1. A página institucional da loja (Vitrine).
+2. Documentação oficial e canais de feedback.
+3. Futura página de download e orientações de instalação do Gestão de Transportes.
 
-## Produto
+## Acesso e Vitrine
 
-O CaraCore CSO atende operações logísticas com foco em controle local de dados e continuidade operacional.
-
-Principais capacidades:
-1. Gestão de entregas e acompanhamento de status.
-2. Cadastro e gestão de couriers.
-3. Gestão de clientes e centros de distribuição.
-4. Administração de preços e tabelas.
-5. Operação com dados locais em SQLite.
-
-## Base Técnica
-
-1. Linguagem: Java 25.
-2. Interface: JavaFX 25.
-3. Banco de dados: SQLite.
-4. Plataforma: Windows Desktop.
-5. Distribuição: vitrine em https://cso.caracore.com.br/ (GitHub Pages) e artefatos publicados nesse canal quando disponíveis.
-
-## Download
-
-Página da loja:
+Página da loja (Vitrine):
 https://cso.caracore.com.br/
 
-Canal de download na loja:
-https://cso.caracore.com.br/download.html
+## Documentação Histórica (Gestão de Transportes)
 
-## Documentação
-
-1. Manual do usuário: [docs/manual/README.md](docs/manual/README.md).
-2. Guia de instalação: [docs/manual/instalacao.md](docs/manual/instalacao.md).
-3. Proteção de dados: [docs/manual/protecao-dados.md](docs/manual/protecao-dados.md).
-4. Resiliência offline: [docs/manual/resiliencia-offline.md](docs/manual/resiliencia-offline.md).
+- Manual do usuário: [docs/manual/README.md](docs/manual/README.md)
+- Guia de instalação: [docs/manual/instalacao.md](docs/manual/instalacao.md)
+- Proteção de dados: [docs/manual/protecao-dados.md](docs/manual/protecao-dados.md)
+- Resiliência offline: [docs/manual/resiliencia-offline.md](docs/manual/resiliencia-offline.md)
 
 ## Canais de Suporte
 
-1. E-mail: suporte@caracore.com.br.
-2. WhatsApp: +55 41 9 9909-7797.
-3. Telegram: @chmulato.
-
-Loja do produto (acesso sem sair do domínio da loja):
-https://cso.caracore.com.br/
-
-## Situação Atual
-
-1. Fase: Seed.
-2. Versão: RC-2.
-3. Data de lançamento planejada: 08/11/2028.
-4. Verificação CVE em 21/05/2026 sem ocorrências críticas ou de alta severidade.
-5. Sprint mai/2026: UC-01 a UC-10 implementados; ATO 1 (Geometria) do Protocolo Amarelinha testado.
+1. E-mail: suporte@caracore.com.br
+2. WhatsApp: +55 41 9 9909-7797
+3. Telegram: @chmulato
 
 ## Licença
 
 Este repositório segue licenciamento proprietário institucional da Cara Core Informática.
 Consulte [LICENSE](LICENSE).
-
