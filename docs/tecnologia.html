@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://cso-transp.caracore.com.br/">
+    <title>Tecnologia — CaraCore CSO | Cara Core Informática</title>
+    <meta name="description" content="Stack do CaraCore CSO: Frotas Web (Java 21, Quarkus, PostgreSQL) e Transportes Desktop (Quarkus, JavaFX, Vue 3, SQLite).">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/evolution-status/evolution-status.css">
+    <link rel="stylesheet" href="/assets/caracore-core-typography.css">
+    <link rel="stylesheet" href="/assets/caracore-institutional-components.css">
+</head>
+<body class="page-tecnologia">
+    <div class="wrapper">
+        <nav class="breadcrumb" aria-label="Navegação">
+            <a href="index.html">CaraCore CSO — Loja</a>
+            <span> · </span>
+            <span>Tecnologia</span>
+        </nav>
+
+        <header>
+            <h1>Tecnologia — CaraCore CSO</h1>
+            <p class="subtitle">Duas oficinas, duas stacks. A vitrine não substitui a aplicação.</p>
+        </header>
+
+        <div class="table-wrap">
+            <table class="plans-table">
+                <thead>
+                    <tr><th></th><th>Frotas (Web)</th><th>Transportes (Desktop)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Oficina</td><td><code>caracore-cso-quarkus</code></td><td><code>caracore-cso-transportes</code></td></tr>
+                    <tr><td>Runtime</td><td>Quarkus 3.8 · Java 21</td><td>Quarkus 3 · Java 21 · JavaFX 21</td></tr>
+                    <tr><td>Interface</td><td>Qute + HTMX + Alpine.js</td><td>Vue 3 SPA + JavaFX</td></tr>
+                    <tr><td>Banco</td><td>PostgreSQL 16 (produção)</td><td>SQLite local</td></tr>
+                    <tr><td>Sessão</td><td>Cookie opaco (estado no Postgres)</td><td>JWT na API da oficina</td></tr>
+                    <tr><td>URL pública</td><td colspan="2"><a href="https://cso.caracore.com.br/" rel="noopener">cso.caracore.com.br</a> (aplicação) · esta loja em cso-transp.caracore.com.br</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <section class="card">
+            <h2>Gestão de Frotas</h2>
+            <p>SaaS multi-tenant na oficina <code>caracore-cso-quarkus</code>. Captação, planos, RBAC, Flyway e LGPD no navegador. Produção na Railway, hostname público <strong>cso.caracore.com.br</strong> — o hostname <code>*.up.railway.app</code> não é URL oficial.</p>
+        </section>
+
+        <section class="card">
+            <h2>Gestão de Transportes</h2>
+            <p>Bunker na oficina <code>caracore-cso-transportes</code>: API REST Quarkus com SQLite, SPA Vue 3 e cliente JavaFX. Papel: operação crítica na empresa e roteamento de telemetria pesada. GPS e mapa ficam no Virtual Tracker™ (produto separado, 2028).</p>
+        </section>
+
+        <nav class="back">
+            <a href="index.html">← Voltar à vitrine</a> · <a href="download.html">Download</a> · <a href="https://wiki.caracore.com.br/projeto-cso.html" rel="noopener">Wiki</a> · <a href="canal-feedback.html">Canal de feedback</a>
+        </nav>
+    </div>
+
+    <script src="assets/js/main.js?v=20260827"></script>
+    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Ecossistema dual">Dual<span class="evo-beta-tooltip">Frotas (Web) em produção · Transportes (Desktop) em garagem até 08/11/2028.</span></span></div>
+    <footer class="evo-roadmap-footer" role="contentinfo">
+        <p class="evo-roadmap-title">Roadmap visível</p>
+        <ul class="evo-roadmap-list">
+            <li>Gestão de Frotas no navegador <span class="evo-roadmap-tag">Disponível</span></li>
+            <li>Gestão de Transportes (desktop bunker) <span class="evo-roadmap-tag">08/11/2028</span></li>
+        </ul>
+    </footer>
+    <div class="evo-feedback-fab"><a href="canal-feedback.html" class="evo-feedback-btn" aria-label="Canal de feedback da loja"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Sugira uma melhoria</a></div>
+</body>
+</html>

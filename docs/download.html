@@ -3,76 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="https://cso.caracore.com.br/">
-    <title>Download — Cara Core CSO | Cara Core Informática</title>
-    <meta name="description" content="Download do Gestão de Transportes (Cara Core CSO) para Windows. Instalador offline. Lançamento oficial 08 de novembro de 2028.">
+    <base href="https://cso-transp.caracore.com.br/">
+    <title>Download — CaraCore CSO | Cara Core Informática</title>
+    <meta name="description" content="Gestão de Frotas não exige download (é o site). Gestão de Transportes Desktop: instalador Windows em 08 de novembro de 2028.">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/caracore-core-typography.css">
-  <link rel="stylesheet" href="/assets/caracore-institutional-components.css">
+    <link rel="stylesheet" href="assets/evolution-status/evolution-status.css">
+    <link rel="stylesheet" href="/assets/caracore-core-typography.css">
+    <link rel="stylesheet" href="/assets/caracore-institutional-components.css">
 </head>
 <body class="download-page">
     <div class="wrapper">
         <nav class="breadcrumb" aria-label="Navegação">
-            <a href="index.html">Cara Core CSO — Loja</a>
-            <span> · </span>
-            <a href="index.html">Cara Core CSO</a>
+            <a href="index.html">CaraCore CSO — Loja</a>
             <span> · </span>
             <span>Download</span>
         </nav>
 
-        <!-- Aviso padrão: lançamentos -->
-        <section class="cso-launch-banner" aria-label="Datas de lançamento">
-            <p class="cso-launch-label">Módulo Desktop</p>
-            <p class="cso-launch-date">Download exclusivo para o módulo <strong>Gestão de Transportes (Desktop)</strong>. Lançamento oficial: <strong>08 de novembro de 2028</strong>. O módulo Gestão de Frotas (Web) não requer download e já está disponível.</p>
-        </section>
-
         <header>
-            <h1>Download — Gestão de Transportes</h1>
-            <p>Módulo Desktop (Cara Core CSO) · Java 25 + JavaFX · Instalador .exe</p>
+            <h1>Download — CaraCore CSO</h1>
+            <p class="subtitle">Frotas opera no navegador. Transportes Desktop ainda não tem instalador público.</p>
         </header>
 
-        <p class="download-notice" style="margin-bottom: 1rem;">O aplicativo será distribuído como <strong>instalador .exe</strong> para Windows. Não requer JDK pré-instalado (Java 25 incluído).</p>
-
-        <section class="card" style="border-left: 4px solid var(--accent-green); background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 32px;">
-            <p>O módulo <strong>Gestão de Transportes</strong> será distribuído como <strong>instalador .exe</strong> para Windows. O instalador inclui Java 25 e todas as dependências necessárias. A aplicação atua de forma offline-first e funciona como bunker acoplado à nuvem.</p>
-            <p><strong>Como executar (desenvolvimento):</strong></p>
-            <ul>
-                <li>Na oficina (caracore-cso): <code>cd src && mvn javafx:run</code></li>
-                <li>Ou gerar instalador: scripts de build para Windows</li>
-            </ul>
-            <p>Quando houver releases publicadas no canal institucional, o instalador estará disponível em:</p>
-            <span class="cta-btn cta-btn-primary" style="display: inline-block; margin-top: 8px; padding: 12px 24px; border-radius: 8px; opacity: 0.5; cursor: default;" aria-disabled="true">Disponível em 08/11/2028</span>
-            <p style="margin-top: 20px;">A <strong>apresentação completa</strong> (requisitos, instalação, uso) e a <strong>consultoria</strong> ficam no portal institucional da Cara Core. A vitrine e o download estão no <a href="index.html">canal institucional de releases</a>.</p>
+        <section class="card">
+            <h2>Gestão de Frotas — sem instalador</h2>
+            <p>O módulo Web já está no ar. Não há <code>.exe</code> para a Frotas: o cliente entra, cadastra e opera em <a href="https://cso.caracore.com.br/" rel="noopener">cso.caracore.com.br</a>.</p>
+            <a href="https://cso.caracore.com.br/" class="cta-btn cta-btn-primary" rel="noopener">Abrir Gestão de Frotas</a>
         </section>
 
-        <section class="card" style="border-left: 4px solid var(--accent-blue); background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 32px;">
-            <h3>Requisitos do Sistema</h3>
+        <section class="card card-differential">
+            <h2>Gestão de Transportes — 08/11/2028</h2>
+            <p class="download-notice">O instalador Windows (Java incluído, SQLite local, verificação SHA-256) será publicado nesta loja na data de GA. <strong>Não há download público agora.</strong></p>
+            <p>Quando o bunker desktop estiver pronto, o artefato sairá no GitHub Releases desta loja e o botão abaixo passará a apontar para o ficheiro. Até lá, o botão permanece desativado de propósito.</p>
+            <p id="countdown" class="countdown-line" aria-live="polite"></p>
+            <span class="cta-btn cta-btn-disabled" aria-disabled="true">Disponível em 08/11/2028</span>
             <ul>
-                <li><strong>Sistema Operacional:</strong> Windows 10/11 (64-bit)</li>
-                <li><strong>Processador:</strong> Intel/AMD x64</li>
-                <li><strong>Memória RAM:</strong> 8 GB mínimo, 16 GB recomendado</li>
-                <li><strong>Armazenamento:</strong> 500 MB para instalação + espaço para dados</li>
-                <li><strong>Permissões:</strong> Instalação requer privilégios de administrador</li>
+                <li><strong>Sistema:</strong> Windows 10/11 (64-bit)</li>
+                <li><strong>Memória:</strong> 8 GB mínimo, 16 GB recomendado</li>
+                <li><strong>Espaço:</strong> cerca de 500 MB de instalação + dados locais</li>
+                <li><strong>JDK pré-instalado:</strong> não será necessário (runtime incluso no instalador)</li>
             </ul>
-        </section>
-
-        <section class="card" style="border-left: 4px solid var(--accent-gold); background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 32px;">
-            <h3>Verificação de Integridade</h3>
-            <p>Todos os releases incluem checksums SHA-256 para verificação de integridade. Após o download, verifique o arquivo usando:</p>
-            <code style="display: block; background: var(--bg-elevated); padding: 12px; border-radius: 4px; margin: 12px 0; font-family: 'Courier New', monospace;">Get-FileHash -Path .\CSO-Setup.exe -Algorithm SHA256</code>
-            <p>Compare o resultado com o hash publicado no release.</p>
         </section>
 
         <nav class="download-back">
-            <a href="index.html" class="cta-btn cta-btn-secondary">← Voltar para apresentação</a>
+            <a href="index.html" class="cta-btn cta-btn-secondary">← Voltar à vitrine</a>
+            <a href="tecnologia.html" class="cta-btn cta-btn-secondary">Tecnologia</a>
             <a href="canal-feedback.html" class="cta-btn cta-btn-secondary">Canal de feedback</a>
-            <a href="index.html" class="cta-btn cta-btn-secondary">Apresentação na loja</a>
         </nav>
     </div>
 
-    <script src="assets/js/main.js?v=20260404-2"></script>
+    <script src="assets/js/main.js?v=20260827"></script>
+    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Ecossistema dual">Dual<span class="evo-beta-tooltip">Frotas (Web) em produção · Transportes (Desktop) em garagem até 08/11/2028.</span></span></div>
+    <footer class="evo-roadmap-footer" role="contentinfo">
+        <p class="evo-roadmap-title">Roadmap visível</p>
+        <ul class="evo-roadmap-list">
+            <li>Gestão de Frotas no navegador <span class="evo-roadmap-tag">Disponível</span></li>
+            <li>Gestão de Transportes (desktop bunker) <span class="evo-roadmap-tag">08/11/2028</span></li>
+        </ul>
+    </footer>
+    <div class="evo-feedback-fab"><a href="canal-feedback.html" class="evo-feedback-btn" aria-label="Canal de feedback da loja"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Sugira uma melhoria</a></div>
 </body>
 </html>
-
-

@@ -745,6 +745,144 @@ footer .apostila-rodape a {
     background: #3a8eff;
 }
 
+.cso-honest {
+    border: 1px solid rgba(212, 168, 83, 0.4);
+    border-left: 5px solid var(--accent-gold);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(212, 168, 83, 0.14), rgba(74, 158, 255, 0.06));
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.cso-honest p {
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.product-duo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.product-duo-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.35rem;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.product-duo-card--frotas {
+    border-left: 5px solid var(--accent-green);
+}
+
+.product-duo-card--transportes {
+    border-left: 5px solid var(--accent-gold);
+}
+
+.product-duo-card h2 {
+    margin: 0.35rem 0 0.4rem 0;
+    color: var(--accent-gold);
+    font-size: 1.35rem;
+}
+
+.product-duo-card p,
+.product-duo-card li {
+    color: var(--text-secondary);
+}
+
+.product-duo-card ul {
+    margin: 0.75rem 0 1rem 0;
+    padding-left: 1.15rem;
+}
+
+.product-duo-url {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.92rem;
+}
+
+.product-duo-url a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+.product-duo-url a:hover {
+    text-decoration: underline;
+}
+
+.status-pill {
+    display: inline-block;
+    margin: 0;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.22rem 0.65rem;
+}
+
+.status-pill--live {
+    background: rgba(71, 179, 107, 0.2);
+    color: #7ddea0;
+}
+
+.status-pill--garage {
+    background: rgba(212, 168, 83, 0.2);
+    color: var(--accent-gold);
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.plans-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0 0.75rem 0;
+}
+
+.plans-table th,
+.plans-table td {
+    border: 1px solid var(--border);
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+}
+
+.plans-table th {
+    background: var(--bg-elevated);
+    color: var(--accent-gold);
+}
+
+.plans-table td {
+    color: var(--text-secondary);
+}
+
+.plans-table a {
+    color: var(--accent-blue);
+}
+
+.cta-btn-disabled,
+.cta-btn[aria-disabled="true"] {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.countdown-line {
+    font-size: 1.15rem;
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.lgpd {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    margin: 1rem 0;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     h1 {
@@ -764,7 +902,8 @@ footer .apostila-rodape a {
     }
 
     .cso-features-grid,
-    .specs-grid {
+    .specs-grid,
+    .product-duo-grid {
         grid-template-columns: 1fr;
     }
 

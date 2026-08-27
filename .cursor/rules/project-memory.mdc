@@ -1,13 +1,24 @@
 ---
-description: caracore-cso-releases não é a verdade pública do CSO — Frotas vive na aplicação
+description: Loja CaraCore CSO — vitrine cso-transp.caracore.com.br; Frotas na aplicação cso.caracore.com.br
 alwaysApply: true
 ---
 
 # Memória — caracore-cso-releases
 
-Este repositório **não** é a vitrine canónica do CSO. A URL pública é a **aplicação** https://cso.caracore.com.br/ (oficina `caracore-cso-quarkus`, Frotas em produção).
+**URL da loja:** https://cso-transp.caracore.com.br/  
+**Aplicação Frotas:** https://cso.caracore.com.br/ (oficina `caracore-cso-quarkus`, em produção)  
+**Transportes Desktop:** oficina `caracore-cso-transportes` · GA **08/11/2028** · sem instalador público ainda.
 
-- **Transportes Desktop** (oficina `caracore-cso-transportes`) lança em **08/11/2028**.
-- Não anunciar 08/11/2028 como se a Frotas ainda não estivesse no ar.
-- CSO ≠ GPS.
-- Matriz: `portfolio.html#caracore-cso`. Wiki: `caracore-wiki/docs/projeto-cso.html`.
+## Papel
+Esta Pages é a **vitrine comercial** dual (Frotas + Transportes): apresentação, status de download e canal de feedback. **Não** substitui a aplicação. CTAs de uso → `cso.caracore.com.br`.
+
+## Discurso
+- Frotas já no ar. Não anunciar 08/11/2028 como se a Frotas ainda não existisse.
+- Não publicar botão de `.exe` ativo antes do GA do desktop.
+- CSO ≠ GPS. Virtual Tracker™ é produto separado, 2028.
+- Hostname `*.up.railway.app` **não** é URL pública.
+
+## Referências
+- Matriz: `portfolio.html#caracore-cso`
+- Wiki: `caracore-wiki/docs/projeto-cso.html`
+- Fonte IAs: `AGENTS.md` na raiz do workspace
