@@ -2,6 +2,16 @@
 
 Este arquivo registra alterações relevantes da loja e da documentação de publicação.
 
+## 2026-09-05 - Loja única e CSO unificado em 2028
+
+### Loja
+1. Copy da home, download, tecnologia e feedback: esta Pages é a loja das **duas** frentes; em **08/11/2028** Frotas + Transportes passam a ser **um só CaraCore CSO**.
+2. Rodapé único em todas as páginas: Frotas disponível · completar frota 1º trim. 2027 · CSO único 08/11/2028 · GPS fora do contrato de hoje.
+3. Cards Equipe e Operação alinham o que a Frotas já entrega (troca de perfil pelo ADMIN; KM no abastecimento/viagem; veículo inativo).
+4. Transportes continua em Garagem — sem instalador e sem novidade de download. Contratar a Frotas hoje não inclui o desktop.
+
+---
+
 ## 2026-05-21 - Ciclo de qualidade e progresso da oficina
 
 ### Progresso da oficina

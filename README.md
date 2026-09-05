@@ -1,21 +1,23 @@
 # CaraCore CSO — Loja e Releases
 
-Vitrine pública do **CaraCore CSO** (Gestão de Frotas + Gestão de Transportes).
+Vitrine pública **única** do **CaraCore CSO**: Gestão de Frotas (Web) e Gestão de Transportes (Desktop). Em **08/11/2028** as duas frentes passam a ser **um só produto**.
 
+**Clone local (único):** `D:\onedrive\dev\caracore-cso-releases`  
 **URL da loja:** https://cso-transp.caracore.com.br/  
 **Aplicação Frotas (não é esta vitrine):** https://cso.caracore.com.br/  
 **Wiki:** https://wiki.caracore.com.br/projeto-cso.html
 
 ## O que esta loja apresenta
 
-| Módulo | Status | Onde |
+| Frente | Status | Onde |
 |---|---|---|
 | **Gestão de Frotas (Web)** | Em produção | [cso.caracore.com.br](https://cso.caracore.com.br/) — oficina `caracore-cso-quarkus` |
 | **Gestão de Transportes (Desktop)** | Garagem **08/11/2028** | Oficina `caracore-cso-transportes` — instalador ainda não publicado |
+| **CSO unificado** | GA **08/11/2028** | Mesma loja: site + bunker no computador da empresa |
 
-CSO de gestão **não** é rastreador GPS. Virtual Tracker™ é produto futuro, separado, 2028.
+Quem contrata a Frotas **hoje** compra gestão no navegador — **não** o desktop e **não** rastreador GPS. Virtual Tracker™ (GPS/mapa) fica fora desse contrato atual.
 
-A loja **não** substitui a aplicação. CTAs de uso apontam para `cso.caracore.com.br`. Esta Pages serve vitrine, status de download e canal de feedback.
+A loja **não** substitui a aplicação. CTAs de uso apontam para `cso.caracore.com.br`. Esta Pages serve vitrine das duas frentes, status de download e canal de feedback.
 
 ## Páginas
 
