@@ -264,6 +264,150 @@ section {
     color: var(--text-primary);
 }
 
+.sell-hero {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem 1.5rem 1.6rem;
+    box-shadow: 0 2px 8px var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.sell-hero h1 {
+    margin: 0 0 0.75rem 0;
+    color: var(--text-primary);
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.sell-hero-login {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.sell-hero-login a {
+    color: var(--accent-blue);
+}
+
+.sell-heading {
+    margin: 0 0 0.75rem 0;
+    color: var(--accent-gold);
+    font-size: 1.45rem;
+}
+
+.why-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: var(--text-primary);
+}
+
+.why-list li {
+    margin-bottom: 0.45rem;
+}
+
+.audience-grid,
+.plan-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin: 1rem 0 0.25rem 0;
+}
+
+@media (min-width: 960px) {
+    .plan-cards {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.audience-card,
+.plan-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+}
+
+.audience-card h3,
+.plan-card h3 {
+    margin: 0 0 0.4rem 0;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+}
+
+.audience-card p,
+.plan-card p {
+    margin: 0;
+    color: var(--text-secondary);
+}
+
+.plan-card-label {
+    margin: 0 0 0.35rem 0;
+    color: var(--accent-green);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.plan-card-price {
+    margin: 0.15rem 0 0.5rem 0;
+    color: var(--accent-gold);
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+.plan-card .cta-btn {
+    margin-top: 0.9rem;
+}
+
+.plan-card--featured {
+    border-left: 5px solid var(--accent-gold);
+}
+
+.cta-band {
+    background: var(--bg-elevated);
+    border: 1px solid var(--accent-gold);
+    border-radius: 12px;
+    padding: 1.4rem 1.3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cta-band-title {
+    margin: 0 0 0.4rem 0;
+    color: var(--text-primary);
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.cta-band p {
+    color: var(--text-secondary);
+}
+
+.cta-band .cta-buttons {
+    justify-content: center;
+}
+
+.future-block h3 {
+    margin: 0.4rem 0 0.5rem 0;
+    color: var(--accent-gold);
+    font-size: 1.2rem;
+}
+
+.future-note {
+    margin: 1rem 0 0 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.cso-feature-card h3 {
+    margin: 0 0 0.45rem 0;
+    color: var(--accent-gold);
+    font-size: 1.05rem;
+}
+
 .hero-cta {
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -938,5 +1082,14 @@ footer .apostila-rodape a {
 
     .methodology {
         grid-template-columns: 1fr;
+    }
+
+    .plan-cards,
+    .audience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sell-hero h1 {
+        font-size: 1.75rem;
     }
 }

@@ -2,6 +2,15 @@
 
 Este arquivo registra alterações relevantes da loja e da documentação de publicação.
 
+## 2026-09-05 - Home de conversão (Frotas hoje)
+
+### Loja
+1. Home reescrita para vender o que existe agora: hero com um H1, dois CTAs e “já tem conta”.
+2. Seções de valor, “para quem é” e planos em cards — stack e 2028 saíram do topo.
+3. Sem depoimento inventado e sem percentual de economia. GPS e Transportes ficam no bloco “ainda não está no contrato”.
+
+---
+
 ## 2026-09-05 - Loja única e CSO unificado em 2028
 
 ### Loja

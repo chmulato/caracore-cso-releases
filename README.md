@@ -21,7 +21,7 @@ A loja **não** substitui a aplicação. CTAs de uso apontam para `cso.caracore.
 
 ## Páginas
 
-- [index.html](docs/index.html) — vitrine dual
+- [index.html](docs/index.html) — vitrine de conversão (Frotas hoje; Transportes abaixo)
 - [download.html](docs/download.html) — Frotas sem instalador; Transportes GA 08/11/2028
 - [tecnologia.html](docs/tecnologia.html) — stacks das duas oficinas
 - [canal-feedback.html](docs/canal-feedback.html) — e-mail, WhatsApp, Telegram
