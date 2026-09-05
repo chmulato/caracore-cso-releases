@@ -1,5 +1,5 @@
 ---
-description: Loja CaraCore CSO — vitrine cso-transp.caracore.com.br; Frotas na aplicação cso.caracore.com.br
+description: Loja CaraCore CSO — conversão Frotas hoje; clone D:\onedrive\dev\caracore-cso-releases
 alwaysApply: true
 ---
 
@@ -11,15 +11,20 @@ alwaysApply: true
 **Transportes Desktop:** oficina `caracore-cso-transportes` · GA **08/11/2028** · **sem informação de loja** na oficina · sem instalador público ainda.
 
 ## Papel
-Esta Pages é a **loja única** (Frotas + Transportes): apresentação, status de download e canal de feedback. **Não** substitui a aplicação. CTAs de uso → `cso.caracore.com.br`. Em **08/11/2028** as duas frentes viram um só produto.
+Loja única (Frotas + Transportes): vitrine de **conversão**, status de download e canal de feedback. **Não** substitui a aplicação. CTAs de uso → `cso.caracore.com.br/cadastro` (ou login/checkout). Em **08/11/2028** as duas frentes viram um só produto.
 
-## Discurso
+## Discurso da home (05/09/2026)
+- Vender o que existe **hoje** (Frotas no navegador, grátis até 3 veículos).
+- Não abrir com 2028, stack (Java/Quarkus/Vue) nem “loja única · duas frentes”.
+- GPS e Transportes: bloco final, honesto. Sem rastreador no contrato atual.
+- Sem prova social inventada e sem percentual de economia.
+
+## Discurso geral
 - Frotas já no ar. Não anunciar 08/11/2028 como se a Frotas ainda não existisse.
 - Não publicar botão de `.exe` ativo antes do GA do desktop.
-- CSO ≠ GPS. Virtual Tracker™ é produto separado, 2028.
 - Hostname `*.up.railway.app` **não** é URL pública.
 
 ## Referências
 - Matriz: `portfolio.html#caracore-cso`
 - Wiki: `caracore-wiki/docs/projeto-cso.html`
-- Fonte IAs: `AGENTS.md` na raiz do workspace
+- Fonte IAs: `AGENTS.md` nesta loja e `D:\onedrive\dev\AGENTS.md`

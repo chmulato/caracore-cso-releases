@@ -8,6 +8,7 @@ Este arquivo registra alterações relevantes da loja e da documentação de pub
 1. Home reescrita para vender o que existe agora: hero com um H1, dois CTAs e “já tem conta”.
 2. Seções de valor, “para quem é” e planos em cards — stack e 2028 saíram do topo.
 3. Sem depoimento inventado e sem percentual de economia. GPS e Transportes ficam no bloco “ainda não está no contrato”.
+4. `AGENTS.md` e `.cursor/rules/project-memory.mdc` descrevem a home de conversão para outras IAs.
 
 ---
 
