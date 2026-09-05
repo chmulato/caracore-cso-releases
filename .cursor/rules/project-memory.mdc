@@ -6,11 +6,12 @@ alwaysApply: true
 # Memória — caracore-cso-releases
 
 **URL da loja:** https://cso-transp.caracore.com.br/  
+**Clone canónico:** `D:\onedrive\dev\caracore-cso-releases`  
 **Aplicação Frotas:** https://cso.caracore.com.br/ (oficina `caracore-cso-quarkus`, em produção)  
-**Transportes Desktop:** oficina `caracore-cso-transportes` · GA **08/11/2028** · sem instalador público ainda.
+**Transportes Desktop:** oficina `caracore-cso-transportes` · GA **08/11/2028** · **sem informação de loja** na oficina · sem instalador público ainda.
 
 ## Papel
-Esta Pages é a **vitrine comercial** dual (Frotas + Transportes): apresentação, status de download e canal de feedback. **Não** substitui a aplicação. CTAs de uso → `cso.caracore.com.br`.
+Esta Pages é a **loja única** (Frotas + Transportes): apresentação, status de download e canal de feedback. **Não** substitui a aplicação. CTAs de uso → `cso.caracore.com.br`. Em **08/11/2028** as duas frentes viram um só produto.
 
 ## Discurso
 - Frotas já no ar. Não anunciar 08/11/2028 como se a Frotas ainda não existisse.
