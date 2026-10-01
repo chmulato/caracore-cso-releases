@@ -2,6 +2,12 @@
 
 Este arquivo registra alterações relevantes da loja e da documentação de publicação.
 
+## 2026-09-29 - Roadmap alinhado à fila empresarial
+
+### Loja
+1. As páginas de home, download, tecnologia e feedback informam a janela FRO de **08/abr–dez/2027** e o freeze do Momento 1 em **08/11/2026**.
+2. A home esclarece que Frotas já está no ar, que o freeze não é um novo lançamento e que o escopo FRO ainda não está disponível. Momento 2/PWA fica para depois de dez/2028, sem janela confirmada.
+
 ## 2026-09-05 - Home de conversão (Frotas hoje)
 
 ### Loja
