@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="https://cso-transp.caracore.com.br/">
     <title>Tecnologia — CaraCore CSO | Cara Core Informática</title>
-    <meta name="description" content="Stacks do CaraCore CSO (loja única): Frotas Web (Java 21, Quarkus, PostgreSQL) e Transportes Desktop (Quarkus, JavaFX, Vue 3, SQLite). Um produto em 08/11/2028.">
+    <meta name="description" content="Tecnologia de Transportes CSO e da capacidade Virtual Tracker: operação local, integração com Frotas e localização online. Lançamento-alvo conjunto: 08/11/2028.">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/evolution-status/evolution-status.css">
@@ -22,7 +22,7 @@
 
         <header>
             <h1>Tecnologia — CaraCore CSO</h1>
-            <p class="subtitle">Uma loja, duas oficinas, um CSO em 2028. A vitrine não substitui a aplicação.</p>
+            <p class="subtitle">Transportes e Virtual Tracker: lançamento-alvo conjunto em 08/11/2028. Duas aplicações CSO, não um terceiro produto.</p>
         </header>
 
         <div class="table-wrap">
@@ -51,21 +51,27 @@
             <p>Bunker na oficina <code>caracore-cso-transportes</code>: API REST Quarkus com SQLite, SPA Vue 3 e cliente JavaFX. Papel no GA: operação crítica na empresa, acoplada à Frotas num <strong>só produto CSO</strong>. GPS e mapa (Virtual Tracker™) não fazem parte do que se contrata hoje.</p>
         </section>
 
+        <section class="card">
+            <h2>Virtual Tracker — integração e localização em construção</h2>
+            <p>Capacidade da solução CSO, não terceiro produto: a interface do motorista será servida por Frotas em HTTPS. O plano prevê criptografia ponta a ponta: o celular protege a localização para que somente a instalação desktop do cliente possa abri-la. Frotas apenas conecta as partes e encaminha o conteúdo cifrado, sem ler ou armazenar posições, rotas e dados de trânsito.</p>
+            <p>Chaves privadas de descriptografia ficam somente na instalação desktop. Histórico, mapa e processamento do deslocamento ficam em Transportes. O encaminhamento ainda consome rede e conexões: limites de carga e proteção contra acúmulo fazem parte da validação. Não haverá armazenamento de mensagens de localização em Frotas, nem para envio posterior.</p>
+            <p>A localização exige conexão com os dois lados, sem armazenamento de pontos ou fila offline no celular. A persistência local em Transportes não torna a telemetria offline. Canal seguro, contrato de integração, privacidade e confiabilidade com tela bloqueada/segundo plano ainda exigem definição e validação.</p>
+            <p>Alvo conjunto: <strong>08/11/2028</strong>, sujeito à homologação. Não há promessa de rastreamento contínuo garantido, antifurto ou telemetria do motor. Preços e pacotes ainda não estão definidos.</p>
+        </section>
+
         <nav class="back">
             <a href="index.html">← Voltar à vitrine</a> · <a href="download.html">Download</a> · <a href="https://wiki.caracore.com.br/projeto-cso.html" rel="noopener">Wiki</a> · <a href="canal-feedback.html">Canal de feedback</a>
         </nav>
     </div>
 
-    <script src="assets/js/main.js?v=20260905"></script>
-    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Loja única do CSO">CSO<span class="evo-beta-tooltip">Loja única: Frotas no ar · Transportes em garagem · um só produto em 08/11/2028.</span></span></div>
+    <script src="assets/js/main.js?v=20261017"></script>
+    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Transportes em desenvolvimento">CSO<span class="evo-beta-tooltip">Transportes + Virtual Tracker: lançamento-alvo 08/11/2028. Frotas Web já disponível, sem GPS.</span></span></div>
     <footer class="evo-roadmap-footer" role="contentinfo">
         <p class="evo-roadmap-title">Roadmap visível</p>
         <ul class="evo-roadmap-list">
-            <li>Gestão de Frotas no navegador <span class="evo-roadmap-tag">Disponível</span></li>
-            <li>Freeze do Momento 1 — produto de Frotas já no ar <span class="evo-roadmap-tag">08/11/2026</span></li>
-            <li>Km/L, documentos, pneus, exame, infrações e custo por km <span class="evo-roadmap-tag">Disponível</span></li>
-            <li>CSO único: Frotas + Transportes (bunker) <span class="evo-roadmap-tag">08/11/2028</span></li>
-            <li>GPS/mapa (Virtual Tracker™) — fora do contrato de hoje <span class="evo-roadmap-tag">2028</span></li>
+            <li>Gestão de Frotas Web — aplicação complementar, sem GPS <span class="evo-roadmap-tag">Disponível</span></li>
+            <li>Transportes + Virtual Tracker — capacidade de integração e localização <span class="evo-roadmap-tag">Alvo: 08/11/2028</span></li>
+            <li>Instalador, GPS e integração em desenvolvimento <span class="evo-roadmap-tag">Sem oferta antecipada</span></li>
         </ul>
     </footer>
     <div class="evo-feedback-fab"><a href="canal-feedback.html" class="evo-feedback-btn" aria-label="Canal de feedback da loja"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Sugira uma melhoria</a></div>

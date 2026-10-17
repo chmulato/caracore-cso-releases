@@ -16,9 +16,9 @@ function updateCountdown() {
         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        countdownElement.textContent = `Tempo até a data-alvo (não confirma disponibilidade): ${days}d ${hours}h ${minutes}m ${seconds}s`;
     } else {
-        countdownElement.innerHTML = 'Lançamento Disponível!';
+        countdownElement.textContent = 'Data-alvo atingida. Consulte o status de publicação; a disponibilidade depende de homologação.';
     }
 }
 

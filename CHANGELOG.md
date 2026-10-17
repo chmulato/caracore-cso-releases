@@ -2,6 +2,31 @@
 
 Este arquivo registra alterações relevantes da loja e da documentação de publicação.
 
+## 2026-10-17 - Transportes com Virtual Tracker: alvo conjunto
+
+### Relay sem dados de trajeto em Frotas
+
+- Decisão confirmada: E2EE celular-desktop, com chave privada de descriptografia somente na instalação do cliente. Frotas conecta/encaminha, não lê ou armazena posições, rotas, informações de trânsito ou envelopes de telemetria.
+- Home e tecnologia refletem a proposta de soberania. Critérios do plano incluem ausência de persistência em logs/APM/proxy/cache/filas e limites de memória/banda/conexões do relay. Capacidade ainda em planejamento, não implementada.
+
+### Rastreabilidade do plano
+
+- A oficina Transportes consolidou o backlog mestre integrado INT-01..21, em seis etapas E0–E5, com dependências, donos por oficina e aceites vinculados às promessas da home.
+- As 10 sprints de evolução local não equivalem ao total do lançamento. Prova de viabilidade móvel e estimativa/capacidade antecedem o compromisso de execução; oferta/publicação dependem de homologação.
+- Planejamento apenas: nenhuma tarefa de GPS/integração concluída e nenhuma nova promessa comercial adicionada.
+
+### Clareza comercial e contato
+
+- Benefício no título: organizar entregas e acompanhar deslocamentos pelo celular; explicação simples dos papéis de Frotas, Transportes e Virtual Tracker.
+- CTA principal “Conversar sobre minha operação” abre WhatsApp com mensagem de interesse preenchida; CTA secundário explica o funcionamento. E-mail e Telegram permanecem como alternativas com links diretos na página de contato.
+- Detalhes de arquitetura ficam na página de tecnologia. Data-alvo, estágio de desenvolvimento, limites de conexão/localização e ausência de contratação antecipada continuam explícitos.
+
+1. Decisão explícita do responsável: lançamento-alvo conjunto de Gestão de Transportes e Virtual Tracker em **08/11/2028**, substituindo a previsão de VT após dezembro de 2028, sem janela confirmada. É mudança de planejamento, não entrega ou homologação.
+2. Home reposicionada para o produto da oficina Transportes; Frotas Web aparece como aplicação complementar disponível. Removidos cards de preço Frotas para não sugerirem preço de Transportes/VT.
+3. Virtual Tracker definido como capacidade de integração e localização, não terceiro produto. Interface/hop em Frotas e histórico/mapa em Transportes; localização online-only, sem fila no celular.
+4. Download, tecnologia, feedback e rodapés alinhados ao mesmo alvo, com preço/pacotes indefinidos e sem oferta antecipada. Contador não anuncia disponibilidade automaticamente ao atingir a data.
+5. Esta revisão não implementa GPS/integração nem publica instalador. Publicação da vitrine depende de commit/push e deploy separados.
+
 ## 2026-09-29 - Roadmap alinhado à fila empresarial
 
 ### Loja
