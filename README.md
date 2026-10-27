@@ -36,12 +36,12 @@ INT-02 valida o celular e INT-03 estima capacidade/calendário; INT-20/21
 condicionam oferta e publicação a evidências de homologação. Nenhuma tarefa
 integrada foi concluída nesta revisão documental. A data continua um alvo.
 
-A loja **não** substitui a aplicação. CTAs de uso apontam para `cso.caracore.com.br`. Esta Pages serve vitrine das duas frentes, status de download e canal de feedback.
+A loja **não** substitui a aplicação. CTAs de uso apontam para `cso.caracore.com.br`. Esta Pages serve a vitrine da Gestão de Frotas (disponível hoje), o status de disponibilidade de Transportes/Virtual Tracker e o canal de feedback.
 
 ## Páginas
 
-- [index.html](docs/index.html) — proposta de Transportes com Virtual Tracker; Frotas como complemento disponível
-- [download.html](docs/download.html) — sem instalador público; lançamento-alvo conjunto em 08/11/2028
+- [index.html](docs/index.html) — vitrine: Gestão de Frotas Web disponível hoje, com planos e checkout; Transportes com Virtual Tracker em desenvolvimento (alvo 08/11/2028)
+- [disponibilidade.html](docs/disponibilidade.html) — o que já dá para usar hoje (Frotas no navegador) e o que ainda não tem arquivo público; `docs/download.html` mantém o link antigo e redireciona para cá
 - [tecnologia.html](docs/tecnologia.html) — stacks das duas oficinas
 - [canal-feedback.html](docs/canal-feedback.html) — e-mail, WhatsApp, Telegram
 - `docs/wiki/` — redireciona para o portal wiki

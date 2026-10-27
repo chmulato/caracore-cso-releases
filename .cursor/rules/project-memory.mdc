@@ -1,5 +1,5 @@
 ---
-description: Loja de Transportes CSO com Virtual Tracker; clone D:\onedrive\dev\caracore-cso-releases
+description: Loja CSO — Frotas Web disponível hoje e Transportes com Virtual Tracker (alvo 08/11/2028); clone D:\onedrive\dev\caracore-cso-releases
 alwaysApply: true
 ---
 
@@ -11,13 +11,19 @@ alwaysApply: true
 **Transportes Desktop:** oficina `caracore-cso-transportes` · GA **08/11/2028** · **sem informação de loja** na oficina · sem instalador público ainda.
 
 ## Papel
-Vitrine comercial do produto construído na oficina Transportes, status de download e canal de feedback. Decisão **17/10/2026**: Transportes e Virtual Tracker com **lançamento-alvo conjunto em 08/11/2028**, sujeito à validação/homologação. VT é capacidade de integração e localização, não terceiro produto. Frotas Web é aplicação complementar, não o foco da home.
+Vitrine comercial de **duas frentes de um só produto**: a **Gestão de Frotas Web**, disponível hoje (abre no navegador, com planos e checkout), e **Transportes com Virtual Tracker**, em desenvolvimento com lançamento-alvo conjunto em **08/11/2028**, sujeito a validação/homologação. Serve também o status de disponibilidade e o canal de feedback. VT é capacidade de integração e localização, não terceiro produto.
 
-## Discurso da home (17/10/2026)
-- Apresentar Transportes com VT como proposta em desenvolvimento, com data-alvo, não promessa de disponibilidade.
-- CTAs de proposta/contato; sem contratação antecipada, preço definido ou instalador público.
-- Localização somente online, sem fila offline no celular; histórico/mapa na base Transportes, interface/hop em Frotas.
-- Frotas disponível aparece como complemento; sua contratação atual não inclui Transportes/VT.
+## Estado da loja (27/10/2026)
+- Quatro páginas no **formato do portal do PDV**: `index.html`, `disponibilidade.html`, `tecnologia.html`, `canal-feedback.html`.
+- `disponibilidade.html` substituiu `download.html`, que hoje é só redirect (`meta refresh` + `canonical` + `noindex`). O menu diz **Disponibilidade**, não "Download": a Frotas não tem arquivo — abre no navegador — e o instalador de Transportes só existe depois da homologação.
+- A home vende Frotas com checkout (`pagamento/checkout?plano=P5|P10|CORPORATE`) e trata Transportes/VT como roadmap, sem CTA de compra.
+- A palavra "download" sobrevive só onde é literal: "não há download público agora", no bloco do Transportes.
+
+## Discurso da home
+- Frotas: o que já está no ar (km/L, documentos, pneus, exame toxicológico, infrações, custo por km), **sem GPS**.
+- Transportes + VT: "em desenvolvimento", alvo 08/11/2028; sem contratação antecipada, sem preço e sem instalador público.
+- Não é rastreador GPS e não é antifurto; a localização exige conexão dos dois lados, sem fila offline no celular; histórico/mapa na base Transportes, interface/hop em Frotas.
+- Contratar a Frotas hoje **não** inclui Transportes/VT.
 - Sem prova social inventada e sem percentual de economia.
 
 ## Discurso geral
