@@ -3,118 +3,349 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="https://cso-transp.caracore.com.br/">
-    <title>Gestão de Transportes e Virtual Tracker | CaraCore CSO</title>
-    <meta name="description" content="Organize entregas e acompanhe deslocamentos pelo celular do motorista. Conheça o CSO Transportes com Virtual Tracker, em desenvolvimento para o alvo de 08/11/2028.">
+    <title>CaraCore CSO — Gestão de Frotas no navegador | Cara Core Informática</title>
+    <meta name="description" content="Controle veículos, abastecimento, manutenção, pneus, documentos e custo por km no navegador. Grátis até 3 veículos, planos mensais por Pix e sem rastreador GPS.">
+    <meta name="keywords" content="gestão de frota, controle de veículos, custo por km, manutenção preventiva, abastecimento, frota PME">
+    <meta name="author" content="Cara Core Informática">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cso-transp.caracore.com.br/">
+    <meta property="og:title" content="CaraCore CSO — Gestão de Frotas no navegador">
+    <meta property="og:description" content="Veículos, abastecimento, manutenção, pneus e documentos em um só lugar. Grátis até 3 veículos; planos mensais por Pix.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cso-transp.caracore.com.br/">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="https://cso-transp.caracore.com.br/assets/img/cso_og_1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CaraCore CSO — Gestão de Frotas no navegador">
+    <meta name="twitter:description" content="Veículos, abastecimento, manutenção, pneus e documentos em um só lugar. Grátis até 3 veículos.">
+    <meta name="twitter:image" content="https://cso-transp.caracore.com.br/assets/img/cso_og_1200x630.png">
+    <meta name="theme-color" content="#0b2545">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260905d">
-    <link rel="stylesheet" href="assets/evolution-status/evolution-status.css">
-    <link rel="stylesheet" href="/assets/caracore-core-typography.css">
-    <link rel="stylesheet" href="/assets/caracore-institutional-components.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/portal-style.css">
+    <link rel="stylesheet" href="assets/css/cso-theme.css">
 </head>
-<body class="cc-i-page page-index">
-    <div class="wrapper">
-        <nav class="breadcrumb" aria-label="Navegação">
-            <a href="https://www.caracore.com.br/">Cara Core Informática</a>
-            <span> · </span>
-            <a href="https://www.caracore.com.br/portfolio.html#caracore-cso" rel="noopener">Portfólio</a>
-            <span> · </span><span>Gestão de Transportes CSO</span>
+<body class="smooth-scroll bg-gray-50">
+    <nav class="breadcrumb container mx-auto px-4 sm:px-6 lg:px-8 pt-3 text-sm text-gray-600" aria-label="Navegação institucional">
+        <a href="https://www.caracore.com.br/" class="hover:text-blue-700">Cara Core Informática</a>
+        <span> · </span>
+        <a href="https://www.caracore.com.br/portfolio.html#caracore-cso" class="hover:text-blue-700" rel="noopener">Portfólio</a>
+        <span> · </span>
+        <span class="text-gray-900">CaraCore CSO</span>
+    </nav>
+
+    <header class="portal-header bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Menu da loja">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 cso-bg rounded-lg flex items-center justify-center">
+                        <i class="fas fa-truck-fast text-white text-xl" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p class="text-xl font-bold text-gray-900">CaraCore CSO</p>
+                        <p class="text-xs text-gray-600">Frota e transporte</p>
+                    </div>
+                </a>
+                <div id="mobile-menu" class="hidden lg:flex absolute lg:static top-full left-0 w-full lg:w-auto bg-white p-4 lg:p-0 flex-col lg:flex-row gap-3 lg:gap-5 lg:items-center">
+                    <a href="#dores" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">O que resolvemos</a>
+                    <a href="#jornada" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Como funciona</a>
+                    <a href="#planos" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Planos</a>
+                    <a href="#roadmap" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Transportes 2028</a>
+                    <a href="download.html" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Download</a>
+                    <a href="https://cso.caracore.com.br/login" rel="noopener" class="text-sm text-blue-800 font-semibold hover:text-blue-900 transition">Entrar</a>
+                    <a href="https://cso.caracore.com.br/cadastro" rel="noopener" class="cso-bg text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition text-center">
+                        Começar grátis
+                    </a>
+                </div>
+                <button id="mobile-menu-button" class="lg:hidden text-gray-700" aria-label="Abrir menu" aria-expanded="false"><i class="fas fa-bars text-2xl"></i></button>
+            </div>
         </nav>
-
-        <section class="sell-hero" aria-label="Gestão de Transportes em desenvolvimento">
-            <p class="hero-label">CSO Transportes com Virtual Tracker · em desenvolvimento</p>
-            <h1>Organize suas entregas. Acompanhe os deslocamentos pelo celular do motorista.</h1>
-            <p class="hero-desc">Conecte veículos, motoristas e entregas sem instalar rastreador dedicado no carro. Essa é a proposta do CSO: cuidar da frota, organizar o trabalho e acompanhar a viagem em uma solução integrada.</p>
-            <div class="cta-buttons">
-                <a href="https://wa.me/5541999097797?text=Tenho%20interesse%20no%20CSO%20Transportes%20com%20Virtual%20Tracker.%20Quero%20explicar%20como%20funciona%20minha%20empresa." class="cta-btn cta-btn-primary" rel="noopener">Conversar sobre minha operação</a>
-                <a href="#virtual-tracker" class="cta-btn cta-btn-secondary">Entender como funciona</a>
+    </header>
+    <section class="portal-hero cso-hero cso-bg text-white py-20 md:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-sm uppercase tracking-wide text-blue-100 mb-4">Gestão de Frotas Web · no navegador · sem instalar nada</p>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                    O controle da frota em um só lugar, sem planilha.
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-50 mb-10">
+                    Veículos, abastecimento, manutenção, pneus e documentos no mesmo cadastro. Grátis até 3 veículos; para crescer, planos mensais por Pix.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="https://cso.caracore.com.br/cadastro" rel="noopener" class="inline-flex items-center justify-center bg-white text-blue-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-lg">
+                        Começar grátis (até 3 veículos)
+                    </a>
+                    <a href="https://cso.caracore.com.br/login" rel="noopener" class="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/10 transition">
+                        Já tenho conta — entrar
+                    </a>
+                </div>
+                <p class="mt-6 text-sm text-blue-100">
+                    Exige conexão com a internet. Não é rastreador GPS. <a href="#planos" class="underline hover:text-white">Ver planos e limites</a>.
+                </p>
             </div>
-            <p class="sell-hero-login">Lançamento-alvo: <strong>08/11/2028</strong>, sujeito a testes e aprovação para uso. Localização exige conexão. A conversa é pelo WhatsApp, sem contratação antecipada. <a href="canal-feedback.html">Prefiro outro canal</a>.</p>
-        </section>
-
-        <section class="cso-overview" aria-label="Proposta da Gestão de Transportes">
-            <h2 class="sell-heading">Menos informação espalhada. Mais clareza sobre cada entrega.</h2>
-            <ul class="why-list">
-                <li>Organizar clientes, entregas e equipe no computador da empresa</li>
-                <li>Saber qual motorista e veículo estão ligados a cada viagem</li>
-                <li>Consultar no mapa a última localização recebida do celular</li>
-                <li>Rever o histórico recebido para entender o deslocamento</li>
-            </ul>
-            <p class="note">Objetivos do produto em construção, não recursos já disponíveis para contratação.</p>
-        </section>
-
-        <section class="cso-overview" aria-label="Para quem estamos construindo">
-            <h2 class="sell-heading">Para quem estamos construindo</h2>
-            <div class="audience-grid">
-                <article class="audience-card"><h3>Quem faz entregas</h3><p>Para organizar o que precisa sair, quem vai levar e o que já foi entregue.</p></article>
-                <article class="audience-card"><h3>Quem administra veículos e motoristas</h3><p>Para relacionar cada viagem ao veículo e ao motorista que se identificou no sistema.</p></article>
-                <article class="audience-card"><h3>Quem não quer instalar rastreador</h3><p>A proposta usa a localização do celular, com internet e autorização durante a viagem.</p></article>
-                <article class="audience-card"><h3>Quem quer o histórico na empresa</h3><p>Os registros recebidos ficam no computador da base, junto da organização das entregas.</p></article>
-            </div>
-        </section>
-
-        <section class="cso-overview" id="virtual-tracker" aria-label="Virtual Tracker em desenvolvimento">
-            <h2 class="sell-heading">Frotas cuida dos carros. Transportes organiza as entregas. Virtual Tracker acompanha a viagem.</h2>
-            <p>Pense no motorista saindo para entregar: a empresa precisa de um veículo em dia, de entregas organizadas e de informação sobre o deslocamento. O CSO reúne essas três necessidades. Veja como estamos planejando:</p>
-            <div class="cso-features-grid">
-                <article class="cso-feature-card"><h3>1. Cuide do veículo com Frotas</h3><p>Cadastre veículos e motoristas. Controle combustível, manutenção e documentos na aplicação Web que já está disponível.</p></article>
-                <article class="cso-feature-card"><h3>2. Organize o trabalho com Transportes</h3><p>No computador da empresa, organize clientes e entregas e consulte o andamento do serviço. Essa aplicação está em construção.</p></article>
-                <article class="cso-feature-card"><h3>3. Acompanhe a viagem com Virtual Tracker</h3><p>Antes de sair, com o carro parado, o motorista se identifica e informa o veículo. Durante a viagem autorizada, o celular envia a localização para consulta no mapa de Transportes. Ao encerrar, a coleta deve parar.</p></article>
-            </div>
-            <p>Virtual Tracker é a função que conecta a viagem à localização do celular dentro do CSO, não um terceiro produto. O plano prevê que somente o desktop da sua empresa possa abrir os dados de localização: Frotas apenas encaminha a mensagem protegida, sem ler ou guardar o trajeto.</p>
-            <p class="note"><strong>Para acompanhar, é preciso conexão.</strong> Sem internet no celular ou comunicação com a base, podem faltar trechos, que não serão recuperados depois. O mapa deve mostrar o horário da última posição recebida, sem apresentar uma posição antiga como atual.</p>
-            <p class="note">A localização é do celular: sozinha, não comprova que ele esteja no carro. O funcionamento com tela bloqueada ou outro aplicativo aberto ainda precisa de testes. Não é antifurto e não lê dados do motor. <a href="tecnologia.html">Veja os detalhes técnicos e de privacidade</a>.</p>
-        </section>
-
-        <section class="cso-overview future-block" id="transportes" aria-label="Planejamento e condições comerciais">
-            <h2 class="sell-heading">Lançamento-alvo: 08/11/2028</h2>
-            <article class="product-duo-card product-duo-card--transportes">
-                <p class="status-pill status-pill--garage">Transportes + Virtual Tracker · em desenvolvimento</p>
-                <h3>Transportes e acompanhamento de viagens, juntos</h3>
-                <p>A meta é lançar Transportes com Virtual Tracker na mesma data. O produto ainda precisa passar por desenvolvimento, testes e aprovação para uso, incluindo os cuidados com a privacidade dos motoristas. Ainda não há instalador público.</p>
-                <a href="download.html" class="cta-btn cta-btn-secondary">Ver status do download</a>
-            </article>
-            <p class="future-note">Preços e condições de contratação ainda serão definidos. Você pode conversar sobre sua necessidade, sem cobrança, reserva ou contratação antecipada.</p>
-        </section>
-
-        <section class="cso-overview" id="hoje" aria-label="Aplicação complementar já disponível">
-            <h2 class="sell-heading">Precisa de gestão de frota hoje?</h2>
-            <p>A aplicação complementar <strong>Gestão de Frotas Web</strong> já está disponível: veículos, abastecimentos, manutenções, equipe, km/L, documentos, pneus e custo por km. Exige conexão e não é rastreador.</p>
-            <p>Seus planos atuais são exclusivos da gestão de frota. <strong>Contratar Frotas hoje não inclui o desktop Transportes nem o Virtual Tracker.</strong> Consulte preços e limites na própria aplicação.</p>
-            <div class="cta-buttons">
-                <a href="https://cso.caracore.com.br/" class="cta-btn cta-btn-secondary" rel="noopener">Conhecer Frotas Web disponível</a>
-                <a href="https://cso.caracore.com.br/login" class="cta-btn cta-btn-secondary" rel="noopener">Entrar em Frotas</a>
-            </div>
-        </section>
-
-        <section class="cta-band" aria-label="Contato sobre Transportes">
-            <p class="cta-band-title">Como você organiza suas entregas hoje?</p>
-            <p>Conte como sua empresa trabalha e o que precisa acompanhar. Vamos conversar sobre como essa proposta pode atender sua operação.</p>
-            <a href="https://wa.me/5541999097797?text=Tenho%20interesse%20no%20CSO%20Transportes%20com%20Virtual%20Tracker.%20Quero%20explicar%20como%20funciona%20minha%20empresa." class="cta-btn cta-btn-primary" rel="noopener">Conversar sobre minha operação</a>
-            <p><a href="canal-feedback.html">Prefiro e-mail ou Telegram</a></p>
-        </section>
-        <p class="nav-section-title">Nesta loja</p>
-        <div class="nav-grid">
-            <a href="download.html" class="nav-card"><h3>Download</h3><p>Status do instalador de Transportes. Ainda sem download público.</p></a>
-            <a href="tecnologia.html" class="nav-card"><h3>Tecnologia</h3><p>Responsabilidades de Transportes, Frotas e Virtual Tracker.</p></a>
-            <a href="canal-feedback.html" class="nav-card"><h3>Canal de feedback</h3><p>E-mail, WhatsApp e Telegram.</p></a>
         </div>
-        <footer class="cso-footer">
-            <p><a href="index.html">Gestão de Transportes CSO — Loja</a> · <a href="https://cso.caracore.com.br/" rel="noopener">Frotas Web</a> · <a href="https://www.caracore.com.br/portfolio.html#caracore-cso" rel="noopener">Portfólio Cara Core</a></p>
-            <p>Loja: cso-transp.caracore.com.br · Aplicação complementar: cso.caracore.com.br</p>
-            <p class="footer-legal">Cara Core Informática · CNPJ 23.969.028/0001-37 · <a href="https://www.caracore.com.br/">www.caracore.com.br</a> · <a href="mailto:suporte@caracore.com.br">suporte@caracore.com.br</a></p>
-        </footer>
-    </div>
-    <script src="assets/js/main.js?v=20261017"></script>
-    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Transportes em desenvolvimento">CSO<span class="evo-beta-tooltip">Transportes + Virtual Tracker: lançamento-alvo 08/11/2028. Frotas Web já disponível, sem GPS.</span></span></div>
-    <footer class="evo-roadmap-footer" role="contentinfo">
-        <p class="evo-roadmap-title">Roadmap visível</p>
-        <ul class="evo-roadmap-list">
-            <li>Gestão de Frotas Web — aplicação complementar, sem GPS <span class="evo-roadmap-tag">Disponível</span></li>
-            <li>Transportes + Virtual Tracker — capacidade de integração e localização <span class="evo-roadmap-tag">Alvo: 08/11/2028</span></li>
-            <li>Instalador, GPS e integração em desenvolvimento <span class="evo-roadmap-tag">Sem oferta antecipada</span></li>
-        </ul>
+    </section>
+
+    <section id="dores" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">O que resolvemos</h2>
+                <p class="text-lg text-gray-600">Quatro dores da frota pequena. Uma frase cada.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <article class="rounded-2xl border border-gray-100 p-6 bg-gray-50">
+                    <i class="fas fa-table-list cso-accent text-2xl mb-4" aria-hidden="true"></i>
+                    <h3 class="font-bold text-gray-900 mb-2">Planilha desatualizada</h3>
+                    <p class="text-sm text-gray-600 mb-3">A frota muda e a planilha fica para trás. O cadastro do veículo passa a ser a fonte única.</p>
+                    <a href="#jornada" class="text-sm font-semibold text-blue-700 hover:text-blue-800">Como funciona</a>
+                </article>
+                <article class="rounded-2xl border border-gray-100 p-6 bg-gray-50">
+                    <i class="fas fa-gas-pump cso-accent text-2xl mb-4" aria-hidden="true"></i>
+                    <h3 class="font-bold text-gray-900 mb-2">Abastecimento sem histórico</h3>
+                    <p class="text-sm text-gray-600 mb-3">Sem o registro por veículo, o km/L vira chute. Com litros e km, o consumo aparece.</p>
+                    <a href="tecnologia.html#frotas" class="text-sm font-semibold text-blue-700 hover:text-blue-800">O que a Frotas faz</a>
+                </article>
+                <article class="rounded-2xl border border-gray-100 p-6 bg-gray-50">
+                    <i class="fas fa-screwdriver-wrench cso-accent text-2xl mb-4" aria-hidden="true"></i>
+                    <h3 class="font-bold text-gray-900 mb-2">Manutenção esquecida</h3>
+                    <p class="text-sm text-gray-600 mb-3">Manutenção, pneus, documentos, exame toxicológico e infrações no mesmo cadastro do veículo.</p>
+                    <a href="tecnologia.html#frotas" class="text-sm font-semibold text-blue-700 hover:text-blue-800">Ver recursos</a>
+                </article>
+                <article class="rounded-2xl border-2 border-blue-200 p-6 bg-blue-50">
+                    <i class="fas fa-chart-line cso-accent text-2xl mb-4" aria-hidden="true"></i>
+                    <h3 class="font-bold text-gray-900 mb-2">Custo por km desconhecido</h3>
+                    <p class="text-sm text-gray-600 mb-3">Combustível somado à manutenção e dividido pelos km rodados no mês. Sem conta no caderno.</p>
+                    <a href="#economia" class="text-sm font-semibold text-blue-700 hover:text-blue-800">Ver a diferença</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="jornada" class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Como funciona na rotina</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Três passos para sair da planilha. Tudo no navegador, sem instalar programa.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <article class="cso-step step-box">
+                    <div class="flex items-start">
+                        <span class="step-number" aria-hidden="true">1</span>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Cadastre veículos e equipe</h3>
+                            <p class="text-sm text-gray-600">Cada veículo entra uma vez, com placa e identificação. Quem opera recebe um perfil e vê só o que precisa.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="cso-step step-box">
+                    <div class="flex items-start">
+                        <span class="step-number" aria-hidden="true">2</span>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Registre a rotina</h3>
+                            <p class="text-sm text-gray-600">Abastecimento, manutenção, pneus, documentos, exame toxicológico e infrações ficam ligados ao veículo.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="cso-step step-box">
+                    <div class="flex items-start">
+                        <span class="step-number" aria-hidden="true">3</span>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-2">Leia os números</h3>
+                            <p class="text-sm text-gray-600">O painel mostra km/L e custo por km: combustível mais manutenção, dividido pelos km rodados no mês.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="text-center text-sm text-gray-500 mt-8 max-w-2xl mx-auto">
+                O CSO não substitui nota fiscal, contabilidade nem emissão fiscal. Ele organiza a operação da frota.
+            </p>
+        </div>
+    </section>
+
+    <section id="economia" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Planilha e mensagens × CSO</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">A mesma rotina, com o registro no lugar certo. Sem valor de economia inventado.</p>
+            </div>
+            <div class="max-w-4xl mx-auto overflow-x-auto bg-white rounded-2xl border border-gray-200 shadow-sm">
+                <table class="w-full text-left text-sm md:text-base">
+                    <thead class="bg-gray-100 text-gray-800">
+                        <tr>
+                            <th class="px-5 py-3 font-semibold">Pergunta do dia</th>
+                            <th class="px-5 py-3 font-semibold">Planilha e mensagens</th>
+                            <th class="px-5 py-3 font-semibold">Com o CSO</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        <tr>
+                            <td class="px-5 py-4 font-semibold text-gray-900">Quem está com cada veículo</td>
+                            <td class="px-5 py-4 text-gray-600">Grupo de mensagens, memória de quem respondeu</td>
+                            <td class="px-5 py-4 text-blue-800 font-medium">Veículo e histórico na mesma tela</td>
+                        </tr>
+                        <tr class="bg-blue-50">
+                            <td class="px-5 py-4 font-semibold text-gray-900">Quanto rendeu o abastecimento</td>
+                            <td class="px-5 py-4 text-gray-600">Cada um anota no seu caderno</td>
+                            <td class="px-5 py-4 text-blue-800 font-medium">Litros, valor e km/L por veículo</td>
+                        </tr>
+                        <tr>
+                            <td class="px-5 py-4 font-semibold text-gray-900">O que vence e o que já foi feito</td>
+                            <td class="px-5 py-4 text-gray-600">Aviso que se perde na conversa</td>
+                            <td class="px-5 py-4 text-blue-800 font-medium">Manutenção, pneus, documentos e exame no cadastro</td>
+                        </tr>
+                        <tr class="bg-blue-50">
+                            <td class="px-5 py-4 font-semibold text-gray-900">Quanto custa rodar</td>
+                            <td class="px-5 py-4 text-gray-600">Conta no fim do mês, sem base</td>
+                            <td class="px-5 py-4 text-blue-800 font-medium">Custo por km com combustível e manutenção</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center text-sm text-gray-500 mt-6 max-w-2xl mx-auto">
+                Comparação de rotina. Não publicamos estimativa de quanto você vai economizar: cada frota tem custo próprio e não medimos o seu.
+            </p>
+        </div>
+    </section>
+    <section id="roadmap" class="py-16 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-start">
+                <div>
+                    <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full mb-4">Em desenvolvimento</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Transportes e Virtual Tracker</h2>
+                    <p class="text-gray-600 mb-4">Duas aplicações CSO, não um terceiro produto: o desktop de Transportes e, dentro dele, a capacidade de localização pelo celular do motorista.</p>
+                    <p class="text-gray-600 mb-4">Alvo conjunto <strong>08/11/2028</strong>, sujeito à prova móvel, à capacidade e à homologação. A data não libera entrega automática.</p>
+                    <p class="text-gray-900 font-semibold mb-6">Contratar Frotas hoje não inclui Transportes nem Virtual Tracker.</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="tecnologia.html#virtual-tracker" class="inline-flex items-center border-2 border-blue-700 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Ler os detalhes</a>
+                        <a href="https://wa.me/5541999097797?text=Tenho%20interesse%20no%20CSO%20Transportes%20com%20Virtual%20Tracker.%20Quero%20explicar%20como%20funciona%20minha%20empresa." rel="noopener" class="inline-flex items-center cso-bg text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition">Conversar sobre minha operação</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+                    <h3 class="font-bold text-gray-900 mb-4">O que fica claro hoje</h3>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-circle-info cso-accent mr-3 mt-1" aria-hidden="true"></i>Localização exige conexão dos dois lados, sem fila offline no celular.</li>
+                        <li class="flex items-start"><i class="fas fa-circle-info cso-accent mr-3 mt-1" aria-hidden="true"></i>Não há promessa de rastreamento contínuo garantido, antifurto ou telemetria do motor.</li>
+                        <li class="flex items-start"><i class="fas fa-circle-info cso-accent mr-3 mt-1" aria-hidden="true"></i>Preço, pacotes e condições comerciais ainda não estão definidos.</li>
+                        <li class="flex items-start"><i class="fas fa-circle-info cso-accent mr-3 mt-1" aria-hidden="true"></i>A conversa não é reserva nem contratação antecipada.</li>
+                    </ul>
+                    <p class="text-sm text-gray-500 mt-4">Prefere e-mail ou Telegram? <a href="canal-feedback.html" class="underline text-blue-700 hover:text-blue-800">Use o canal da loja</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="planos" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Planos da Gestão de Frotas</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Os mesmos recursos em todos os planos. O que muda é o limite de veículos.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white rounded-2xl p-6 border-2 border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Grátis</h3>
+                    <p class="text-3xl font-bold text-gray-900 mb-1">R$ 0</p>
+                    <p class="text-sm text-gray-600 mb-6">Até 3 veículos. Para autônomos e pequenos negócios testarem.</p>
+                    <a href="https://cso.caracore.com.br/cadastro" rel="noopener" class="mt-auto inline-flex items-center justify-center cso-bg text-white px-5 py-3 rounded-lg font-semibold hover:shadow-lg transition">Começar grátis</a>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border-2 border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Até 5 veículos</h3>
+                    <p class="text-3xl font-bold text-gray-900 mb-1">R$ 5,00<span class="text-base font-medium text-gray-500">/mês</span></p>
+                    <p class="text-sm text-gray-600 mb-6">Para quem passou do teste e quer o cadastro completo da frota.</p>
+                    <a href="https://cso.caracore.com.br/pagamento/checkout?plano=P5" rel="noopener" class="mt-auto inline-flex items-center justify-center border-2 border-blue-700 text-blue-800 px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Assinar este plano</a>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border-2 border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Até 10 veículos</h3>
+                    <p class="text-3xl font-bold text-gray-900 mb-1">R$ 10,00<span class="text-base font-medium text-gray-500">/mês</span></p>
+                    <p class="text-sm text-gray-600 mb-6">Para a frota que cresceu e quer o custo por veículo na mão.</p>
+                    <a href="https://cso.caracore.com.br/pagamento/checkout?plano=P10" rel="noopener" class="mt-auto inline-flex items-center justify-center border-2 border-blue-700 text-blue-800 px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Assinar este plano</a>
+                </div>
+                <div class="bg-white rounded-2xl p-6 border-2 border-blue-400 relative shadow-lg flex flex-col">
+                    <span class="absolute -top-3 left-6 bg-blue-700 text-white text-xs font-bold px-3 py-1 rounded-full">Corporativo</span>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1 mt-2">Até 50 veículos</h3>
+                    <p class="text-3xl font-bold text-gray-900 mb-1">R$ 49,00<span class="text-base font-medium text-gray-500">/mês</span></p>
+                    <p class="text-sm text-gray-600 mb-6">Para a operação com equipe maior e mais de uma frente.</p>
+                    <a href="https://cso.caracore.com.br/pagamento/checkout?plano=CORPORATE" rel="noopener" class="mt-auto inline-flex items-center justify-center cso-bg text-white px-5 py-3 rounded-lg font-semibold hover:shadow-lg transition">Assinar este plano</a>
+                </div>
+            </div>
+            <p class="text-center text-sm text-gray-500 mt-8 max-w-3xl mx-auto">
+                Recursos iguais em todos os planos: muda só o limite de veículos. No Brasil o pagamento é por Pix; fora do Brasil, transferência internacional. O plano é liberado pela Cara Core depois da conferência do comprovante — a contratação não ativa sozinha.
+                <strong class="text-gray-700">Nenhum plano inclui Transportes ou Virtual Tracker.</strong>
+            </p>
+        </div>
+    </section>
+    <section id="demo" class="py-20 cso-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl mx-auto text-center text-white">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Comece hoje, sem esperar instalação.</h2>
+                <p class="text-xl text-blue-50 mb-8">
+                    Cadastro no navegador, até 3 veículos grátis. Sem cartão e sem prazo de teste.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="https://cso.caracore.com.br/cadastro" rel="noopener" class="inline-flex items-center justify-center bg-white text-blue-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-lg">
+                        Criar conta grátis
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=QxDKWjRASsI" rel="noopener" class="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/10 transition">
+                        <i class="fas fa-play mr-3" aria-hidden="true"></i>Ver demonstração
+                    </a>
+                </div>
+                <p class="text-sm text-blue-100 mt-6">
+                    Não atendemos ligações. <a href="canal-feedback.html" class="underline hover:text-white">Escreva pelo canal da loja</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <p class="text-white font-bold mb-2">Cara Core Informática</p>
+                    <p class="text-sm text-gray-400 mb-3">Gestão de frota no navegador, com o dado no sistema da própria empresa.</p>
+                    <p class="text-sm text-gray-400">Frotas Web disponível. Transportes e Virtual Tracker em desenvolvimento, alvo 08/11/2028.</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">O produto</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://cso.caracore.com.br/" rel="noopener" class="hover:text-white">Frotas Web</a></li>
+                        <li><a href="https://cso.caracore.com.br/login" rel="noopener" class="hover:text-white">Entrar</a></li>
+                        <li><a href="download.html" class="hover:text-white">Download</a></li>
+                        <li><a href="tecnologia.html" class="hover:text-white">Tecnologia</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">Documentação</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="manual/" class="hover:text-white">Manual</a></li>
+                        <li><a href="https://wiki.caracore.com.br/projeto-cso.html" rel="noopener" class="hover:text-white">Wiki do CSO</a></li>
+                        <li><a href="https://www.caracore.com.br/portfolio.html#caracore-cso" rel="noopener" class="hover:text-white">Portfólio</a></li>
+                        <li><a href="https://download.caracore.com.br/" rel="noopener" class="hover:text-white">Central de downloads</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">Contato</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="canal-feedback.html" class="hover:text-white">Canal da loja</a></li>
+                        <li><a href="https://wa.me/5541999097797" rel="noopener" class="hover:text-white">WhatsApp</a></li>
+                        <li><a href="https://t.me/chmulato" rel="noopener" class="hover:text-white">Telegram</a></li>
+                        <li><a href="mailto:suporte@caracore.com.br" class="hover:text-white">suporte@caracore.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-6 text-sm text-gray-400">
+                <p>&copy; 2024–2026 Cara Core Informática · CNPJ 23.969.028/0001-37 · <a href="https://www.caracore.com.br/" class="hover:text-white">www.caracore.com.br</a></p>
+            </div>
+        </div>
     </footer>
-    <div class="evo-feedback-fab"><a href="canal-feedback.html" class="evo-feedback-btn" aria-label="Sugira uma melhoria pelo canal oficial">Sugira uma melhoria</a></div>
+
+    <script>
+        var m=document.getElementById('mobile-menu-button'),n=document.getElementById('mobile-menu');
+        if(m&&n){m.addEventListener('click',function(){n.classList.toggle('hidden');n.classList.toggle('flex');m.setAttribute('aria-expanded',String(!n.classList.contains('hidden')));});}
+        document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();var t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'});});});
+    </script>
 </body>
 </html>
+

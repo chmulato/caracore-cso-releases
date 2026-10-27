@@ -3,78 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="https://cso-transp.caracore.com.br/">
-    <title>Converse sobre sua operação — CaraCore CSO</title>
-    <meta name="description" content="Conte como sua empresa organiza entregas e veículos. Converse sobre CSO Transportes com Virtual Tracker por WhatsApp, e-mail ou Telegram, sem contratação antecipada.">
+    <title>Canal da loja — CaraCore CSO | Cara Core Informática</title>
+    <meta name="description" content="Fale com a Cara Core sobre gestão de frota por e-mail, WhatsApp ou Telegram. Não atendemos ligações e nenhuma conversa é contratação antecipada.">
+    <meta name="keywords" content="contato CSO, suporte gestão de frota, canal de feedback">
+    <meta name="author" content="Cara Core Informática">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cso-transp.caracore.com.br/canal-feedback.html">
+    <meta property="og:title" content="Canal da loja — CaraCore CSO">
+    <meta property="og:description" content="E-mail, WhatsApp e Telegram. Sem ligações e sem contratação antecipada.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cso-transp.caracore.com.br/canal-feedback.html">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="https://cso-transp.caracore.com.br/assets/img/cso_og_1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#0b2545">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/evolution-status/evolution-status.css">
-    <link rel="stylesheet" href="/assets/caracore-core-typography.css">
-    <link rel="stylesheet" href="/assets/caracore-institutional-components.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/portal-style.css">
+    <link rel="stylesheet" href="assets/css/cso-theme.css">
 </head>
-<body class="page-feedback">
-    <div class="wrapper">
-        <nav class="breadcrumb" aria-label="Navegação">
-            <a href="index.html">CaraCore CSO — Loja</a>
-            <span> · </span>
-            <span>Canal de feedback</span>
+<body class="smooth-scroll bg-gray-50">
+    <nav class="breadcrumb container mx-auto px-4 sm:px-6 lg:px-8 pt-3 text-sm text-gray-600" aria-label="Navegação institucional">
+        <a href="https://www.caracore.com.br/" class="hover:text-blue-700">Cara Core Informática</a>
+        <span> · </span>
+        <a href="https://www.caracore.com.br/portfolio.html#caracore-cso" class="hover:text-blue-700" rel="noopener">Portfólio</a>
+        <span> · </span>
+        <a href="index.html" class="hover:text-blue-700">CaraCore CSO</a>
+        <span> · </span>
+        <span class="text-gray-900">Canal da loja</span>
+    </nav>
+
+    <header class="portal-header bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Menu da loja">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <div class="w-12 h-12 cso-bg rounded-lg flex items-center justify-center">
+                        <i class="fas fa-truck-fast text-white text-xl" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p class="text-xl font-bold text-gray-900">CaraCore CSO</p>
+                        <p class="text-xs text-gray-600">Frota e transporte</p>
+                    </div>
+                </a>
+                <div id="mobile-menu" class="hidden lg:flex absolute lg:static top-full left-0 w-full lg:w-auto bg-white p-4 lg:p-0 flex-col lg:flex-row gap-3 lg:gap-5 lg:items-center">
+                    <a href="index.html#dores" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">O que resolvemos</a>
+                    <a href="index.html#jornada" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Como funciona</a>
+                    <a href="index.html#planos" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Planos</a>
+                    <a href="index.html#roadmap" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Transportes 2028</a>
+                    <a href="download.html" class="text-sm text-gray-700 hover:text-blue-700 font-medium transition">Download</a>
+                    <a href="https://cso.caracore.com.br/login" rel="noopener" class="text-sm text-blue-800 font-semibold hover:text-blue-900 transition">Entrar</a>
+                    <a href="https://cso.caracore.com.br/cadastro" rel="noopener" class="cso-bg text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition text-center">
+                        Começar grátis
+                    </a>
+                </div>
+                <button id="mobile-menu-button" class="lg:hidden text-gray-700" aria-label="Abrir menu" aria-expanded="false"><i class="fas fa-bars text-2xl"></i></button>
+            </div>
         </nav>
+    </header>
 
-        <header>
-            <h1>Vamos conversar sobre sua operação?</h1>
-            <p class="subtitle">Conte como você organiza entregas, veículos e motoristas — e o que precisa acompanhar melhor.</p>
-        </header>
-
-        <div class="no-phone"><strong>Não atendemos ligações telefônicas.</strong> Utilize apenas e-mail, WhatsApp ou Telegram.</div>
-
-        <section class="intro">
-            <p>Você pode começar dizendo quantos veículos e motoristas utiliza, como distribui as entregas e qual é a maior dificuldade do dia a dia. Não envie documentos pessoais ou localização de motoristas nesta conversa inicial.</p>
-            <p><strong>CSO Transportes com Virtual Tracker está em desenvolvimento</strong>, com lançamento-alvo em 08/11/2028, sujeito a testes e aprovação para uso. A conversa não é reserva nem contratação: preços ainda serão definidos e não há instalador público agora.</p>
-            <p>A aplicação complementar Frotas já opera em <a href="https://cso.caracore.com.br/" rel="noopener">cso.caracore.com.br</a>, sem GPS. Sua contratação atual não inclui Transportes nem Virtual Tracker.</p>
-        </section>
-
-        <section class="channels">
-            <div class="channel-card">
-                <div class="icon">✉️</div>
-                <div class="title">E-mail — suporte@caracore.com.br</div>
-                <div class="desc">Explique sua necessidade ou envie dúvidas e sugestões. Resposta em horário comercial.</div>
-                <a class="cta-btn cta-btn-secondary" href="mailto:suporte@caracore.com.br?subject=Interesse%20no%20CSO%20Transportes%20com%20Virtual%20Tracker&amp;body=Quero%20explicar%20como%20funciona%20minha%20empresa.%0AQuantidade%20de%20veiculos%3A%0AComo%20organizamos%20as%20entregas%3A%0AMaior%20dificuldade%3A">Enviar e-mail</a>
-            </div>
-            <div class="channel-card">
-                <div class="icon">💬</div>
-                <div class="title">WhatsApp — +55 (41) 9 9909-7797</div>
-                <div class="desc">Cara Core Informática. Mensagem de texto. Não atendemos ligações.</div>
-                <a class="cta-btn cta-btn-primary" href="https://wa.me/5541999097797?text=Tenho%20interesse%20no%20CSO%20Transportes%20com%20Virtual%20Tracker.%20Quero%20explicar%20como%20funciona%20minha%20empresa." rel="noopener">Conversar pelo WhatsApp</a>
-            </div>
-            <div class="channel-card">
-                <div class="icon">✈️</div>
-                <div class="title">Telegram — @chmulato</div>
-                <div class="desc">Cara Core Informática. Suporte e feedback sobre o CSO.</div>
-                <a class="cta-btn cta-btn-secondary" href="https://t.me/chmulato" rel="noopener">Conversar pelo Telegram</a>
-            </div>
-        </section>
-
-        <div class="lgpd">
-            <p><strong>Privacidade:</strong> as mensagens são tratadas conforme a Política de Privacidade da Cara Core. Não compartilhamos dados com terceiros sem consentimento.</p>
+    <main class="page-shell container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Vamos conversar sobre sua operação?</h1>
+            <p class="text-lg text-gray-600">Conte como você organiza veículos, manutenções e custos — e o que precisa acompanhar melhor.</p>
         </div>
 
-        <nav class="feedback-back">
-            <a href="index.html" class="cta-btn cta-btn-secondary">← Voltar à vitrine</a>
-            <a href="https://cso.caracore.com.br/" class="cta-btn cta-btn-secondary" rel="noopener">Aplicação Frotas</a>
-            <a href="download.html" class="cta-btn cta-btn-secondary">Download</a>
-        </nav>
-    </div>
+        <div class="max-w-3xl mx-auto bg-amber-50 border-l-4 border-amber-500 p-5 rounded-lg mb-8">
+            <p class="text-amber-900 text-sm"><strong>Não atendemos ligações telefônicas.</strong> Utilize apenas e-mail, WhatsApp ou Telegram.</p>
+        </div>
 
-    <script src="assets/js/main.js?v=20261017"></script>
-    <div class="evo-beta-wrap" aria-hidden="true"><span class="evo-beta-badge" title="Transportes em desenvolvimento">CSO<span class="evo-beta-tooltip">Transportes + Virtual Tracker: lançamento-alvo 08/11/2028. Frotas Web já disponível, sem GPS.</span></span></div>
-    <footer class="evo-roadmap-footer" role="contentinfo">
-        <p class="evo-roadmap-title">Roadmap visível</p>
-        <ul class="evo-roadmap-list">
-            <li>Gestão de Frotas Web — aplicação complementar, sem GPS <span class="evo-roadmap-tag">Disponível</span></li>
-            <li>Transportes + Virtual Tracker — capacidade de integração e localização <span class="evo-roadmap-tag">Alvo: 08/11/2028</span></li>
-            <li>Instalador, GPS e integração em desenvolvimento <span class="evo-roadmap-tag">Sem oferta antecipada</span></li>
-        </ul>
+        <section class="max-w-3xl mx-auto mb-10 space-y-4 text-gray-600">
+            <p>Você pode começar dizendo quantos veículos e pessoas usam a frota, como a manutenção é decidida hoje e qual é a maior dificuldade do dia a dia. Não envie documentos pessoais nem dados de terceiros nesta conversa inicial.</p>
+            <p>A <strong>Gestão de Frotas</strong> já opera em <a href="https://cso.caracore.com.br/" rel="noopener" class="text-blue-700 underline hover:text-blue-800">cso.caracore.com.br</a>: você pode começar sozinho, sem falar com ninguém. A conversa serve para dúvidas, sugestões e para o caso de a frota ser maior do que os planos publicados.</p>
+            <p><strong>Transportes com Virtual Tracker está em desenvolvimento</strong>, com alvo conjunto em 08/11/2028, sujeito à validação e à homologação. A conversa não é reserva nem contratação: preço e condições ainda não estão definidos e não há instalador público agora.</p>
+        </section>
+        <section class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 mb-10">
+            <article class="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 flex flex-col">
+                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fas fa-envelope text-blue-700 text-xl" aria-hidden="true"></i>
+                </div>
+                <h2 class="font-bold text-gray-900 mb-1">E-mail</h2>
+                <p class="text-sm text-gray-500 mb-3">suporte@caracore.com.br</p>
+                <p class="text-sm text-gray-600 mb-5">Dúvidas, sugestões e pedidos por escrito. Resposta em horário comercial.</p>
+                <a href="mailto:suporte@caracore.com.br?subject=CSO%20-%20Gest%C3%A3o%20de%20Frotas&amp;body=Quantos%20ve%C3%ADculos%20usamos%3A%0AComo%20organizamos%20manuten%C3%A7%C3%A3o%20e%20abastecimento%3A%0AMaior%20dificuldade%3A" class="mt-auto inline-flex items-center justify-center border-2 border-blue-700 text-blue-800 px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Enviar e-mail</a>
+            </article>
+            <article class="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 flex flex-col">
+                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fab fa-whatsapp text-blue-700 text-xl" aria-hidden="true"></i>
+                </div>
+                <h2 class="font-bold text-gray-900 mb-1">WhatsApp</h2>
+                <p class="text-sm text-gray-500 mb-3">+55 (41) 9 9909-7797</p>
+                <p class="text-sm text-gray-600 mb-5">Cara Core Informática. Somente mensagem de texto: não atendemos ligações.</p>
+                <a href="https://wa.me/5541999097797?text=Ol%C3%A1%21%20Quero%20falar%20sobre%20a%20Gest%C3%A3o%20de%20Frotas%20do%20CSO." rel="noopener" class="mt-auto inline-flex items-center justify-center cso-bg text-white px-5 py-3 rounded-lg font-semibold hover:shadow-lg transition">Conversar pelo WhatsApp</a>
+            </article>
+            <article class="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 flex flex-col">
+                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4">
+                    <i class="fab fa-telegram text-blue-700 text-xl" aria-hidden="true"></i>
+                </div>
+                <h2 class="font-bold text-gray-900 mb-1">Telegram</h2>
+                <p class="text-sm text-gray-500 mb-3">@chmulato</p>
+                <p class="text-sm text-gray-600 mb-5">Suporte e feedback sobre o CSO, também por escrito.</p>
+                <a href="https://t.me/chmulato" rel="noopener" class="mt-auto inline-flex items-center justify-center border-2 border-blue-700 text-blue-800 px-5 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Conversar pelo Telegram</a>
+            </article>
+        </section>
+
+        <div class="max-w-3xl mx-auto bg-white border border-gray-200 rounded-2xl p-6 mb-10">
+            <p class="text-sm text-gray-600"><strong class="text-gray-900">Privacidade:</strong> as mensagens são tratadas conforme a Política de Privacidade da Cara Core. Não compartilhamos dados com terceiros sem consentimento. Para cancelar uma conta criada por engano, escreva para o mesmo e-mail.</p>
+        </div>
+
+        <div class="max-w-3xl mx-auto flex flex-wrap gap-3 justify-center">
+            <a href="index.html" class="inline-flex items-center border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">← Voltar à vitrine</a>
+            <a href="https://cso.caracore.com.br/" rel="noopener" class="inline-flex items-center border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Frotas Web</a>
+            <a href="download.html" class="inline-flex items-center border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Download</a>
+        </div>
+    </main>
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <p class="text-white font-bold mb-2">Cara Core Informática</p>
+                    <p class="text-sm text-gray-400 mb-3">Gestão de frota no navegador, com o dado no sistema da própria empresa.</p>
+                    <p class="text-sm text-gray-400">Frotas Web disponível. Transportes e Virtual Tracker em desenvolvimento, alvo 08/11/2028.</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">O produto</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://cso.caracore.com.br/" rel="noopener" class="hover:text-white">Frotas Web</a></li>
+                        <li><a href="https://cso.caracore.com.br/login" rel="noopener" class="hover:text-white">Entrar</a></li>
+                        <li><a href="download.html" class="hover:text-white">Download</a></li>
+                        <li><a href="tecnologia.html" class="hover:text-white">Tecnologia</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">Documentação</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="manual/" class="hover:text-white">Manual</a></li>
+                        <li><a href="https://wiki.caracore.com.br/projeto-cso.html" rel="noopener" class="hover:text-white">Wiki do CSO</a></li>
+                        <li><a href="https://www.caracore.com.br/portfolio.html#caracore-cso" rel="noopener" class="hover:text-white">Portfólio</a></li>
+                        <li><a href="https://download.caracore.com.br/" rel="noopener" class="hover:text-white">Central de downloads</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-3">Contato</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="canal-feedback.html" class="hover:text-white">Canal da loja</a></li>
+                        <li><a href="https://wa.me/5541999097797" rel="noopener" class="hover:text-white">WhatsApp</a></li>
+                        <li><a href="https://t.me/chmulato" rel="noopener" class="hover:text-white">Telegram</a></li>
+                        <li><a href="mailto:suporte@caracore.com.br" class="hover:text-white">suporte@caracore.com.br</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-6 text-sm text-gray-400">
+                <p>&copy; 2024–2026 Cara Core Informática · CNPJ 23.969.028/0001-37 · <a href="https://www.caracore.com.br/" class="hover:text-white">www.caracore.com.br</a></p>
+            </div>
+        </div>
     </footer>
-    <div class="evo-feedback-fab"><a href="canal-feedback.html" class="evo-feedback-btn" aria-label="Canal de feedback da loja"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Sugira uma melhoria</a></div>
+
+    <script>
+        var m=document.getElementById('mobile-menu-button'),n=document.getElementById('mobile-menu');
+        if(m&&n){m.addEventListener('click',function(){n.classList.toggle('hidden');n.classList.toggle('flex');m.setAttribute('aria-expanded',String(!n.classList.contains('hidden')));});}
+        document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();var t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'});});});
+    </script>
 </body>
 </html>

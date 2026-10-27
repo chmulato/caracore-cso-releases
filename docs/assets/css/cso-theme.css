@@ -1,0 +1,26 @@
+/* CaraCore CSO — tema da loja sobre portal-style.css (mesma base do portal do PDV).
+   Aqui só vivem as cores da marca CSO e dois ajustes de enquadramento; todo o
+   layout, tipografia e componentes vêm de portal-style.css. */
+
+:root{
+  --brand-a: #0b2545;
+  --brand-b: #123a63;
+  --brand-c: #0e7490;
+
+  --green: #1d4ed8;
+  --green2: #0891b2;
+
+  --grad-a: #1d4ed8;
+  --grad-b: #0891b2;
+}
+
+/* Fundos de destaque da CSO (herói, faixa final, selo do plano corporativo). */
+.cso-bg { background: linear-gradient(135deg, var(--brand-a) 0%, var(--green) 60%, var(--green2) 100%); }
+.cso-accent { color: var(--green); }
+
+/* Sombra do herói na cor da marca, no lugar do cinza padrão do portal. */
+.portal-hero.cso-hero { box-shadow: 0 24px 60px rgba(11, 37, 69, 0.28); }
+
+/* Passos numerados na cor da marca. */
+.cso-step { background: #ffffff; border-color: #e2e8f0; }
+.cso-step:hover { border-color: var(--green); }
