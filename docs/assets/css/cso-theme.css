@@ -24,3 +24,10 @@
 /* Passos numerados na cor da marca. */
 .cso-step { background: #ffffff; border-color: #e2e8f0; }
 .cso-step:hover { border-color: var(--green); }
+
+/* CTA do cabeçalho — estrutura e classes iguais nas três lojas (PDV, Hub, CSO).
+   Só a cor muda, e ela vem das variáveis do tema da loja. */
+.cta-link { color: #374151; }
+.cta-link:hover { color: var(--green); }
+.cta-btn { background: linear-gradient(135deg, var(--green) 0%, var(--green2) 100%); }
+
