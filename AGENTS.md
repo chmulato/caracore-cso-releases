@@ -34,4 +34,4 @@ inclui desktop ou GPS. Localização somente online, sem fila offline no celular
 2. CTAs de uso → `https://cso.caracore.com.br/` (cadastro / login / checkout). Sem `/delivery/`. Sem instalador público até o GA.
 3. Wiki de alinhamento: `D:\onedrive\dev\caracore-wiki` (`wiki.caracore.com.br/projeto-cso.html`).
 4. Publicação: GitHub Pages a partir de `docs/`.
-5. Norte do ecossistema: `D:\onedrive\dev\AGENTS.md`.
+5. Norte do ecossistema: `caracore-site/AGENTS.md` + `caracore-site/docs/ECOSYSTEM_MEMORIA.md` (o antigo `D:\onedrive\dev\AGENTS.md` não existe mais).
