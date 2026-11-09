@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cso-transp.caracore.com.br/sitemap.xml
