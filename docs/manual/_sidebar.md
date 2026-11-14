@@ -1,3 +1,5 @@
+**Manual do CaraCore CSO**
+
 - [Introdução](README.md)
 - [Instalação e Configuração](instalacao.md)
 - [Proteção de Dados](protecao-dados.md)
